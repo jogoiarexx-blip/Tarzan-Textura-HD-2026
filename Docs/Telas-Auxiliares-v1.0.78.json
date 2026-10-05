@@ -1,0 +1,18 @@
+{
+  "version": "1.0.78",
+  "category": "auxiliary-screens",
+  "asset": "PCTITLE",
+  "resource_index": 990,
+  "tiles_replaced": 111,
+  "groups_preserved": 10,
+  "original_resource_sha256": "33fd0576cf2f83561456e1174982d9f782b06a84b114a24f010f28f03c9ea316",
+  "new_resource_sha256": "090ff02b77c3b7b3b24b932f206f5b73747fdd60b3fa42454a6e752a23b3a8f3",
+  "exact_ptbr_masks_preserved": true,
+  "selection_states_preserved": true,
+  "old_resource_embedded": false,
+  "compaction": {
+    "removed_tiles": 0,
+    "removed_palettes": 0,
+    "added_palettes": 21
+  }
+}

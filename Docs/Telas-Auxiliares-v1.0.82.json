@@ -1,0 +1,19 @@
+{
+  "version": "1.0.82",
+  "category": "auxiliary-screens",
+  "asset": "SFX",
+  "resource_index": 834,
+  "tiles_replaced": 40,
+  "groups_preserved": 2,
+  "internal_resource_name_preserved": true,
+  "exact_ptbr_masks_preserved": true,
+  "selection_states_preserved": true,
+  "original_resource_sha256": "e72d382082aa68f6e66578fe29be2c13d102c1be4c81764a25fe5ea9d259b3dc",
+  "new_resource_sha256": "0bad6a41fc78f549388473f7b7ec3a9689b639d89dee1f34ad0e671cfa54bdd8",
+  "old_resource_embedded": false,
+  "compaction": {
+    "removed_tiles": 0,
+    "removed_palettes": 0,
+    "added_palettes": 27
+  }
+}

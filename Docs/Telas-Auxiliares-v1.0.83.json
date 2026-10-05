@@ -1,0 +1,21 @@
+{
+  "version": "1.0.83",
+  "category": "auxiliary-screens",
+  "asset": "CONTROL",
+  "resource_index": 996,
+  "tiles_replaced": 251,
+  "groups_preserved": 12,
+  "tiny_native_glyph_slices_supported": true,
+  "internal_resource_name_preserved": true,
+  "exact_ptbr_masks_preserved": true,
+  "selection_states_preserved": true,
+  "orange_and_turquoise_families_remastered": true,
+  "original_resource_sha256": "d3d0fd559b5150362cba171ed4101f6d2ab4f37459528951427049f5cd90f816",
+  "new_resource_sha256": "b80346a937f57bc0040a96baf5b052503ad223219c5e4a8a60d4ba0e308a5b0f",
+  "old_resource_embedded": false,
+  "compaction": {
+    "removed_tiles": 0,
+    "removed_palettes": 0,
+    "added_palettes": 206
+  }
+}

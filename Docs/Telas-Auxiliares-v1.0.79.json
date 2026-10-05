@@ -1,0 +1,27 @@
+{
+  "version": "1.0.79",
+  "category": "auxiliary-screens",
+  "asset": "DIFF",
+  "resource_index": 0,
+  "tiles_replaced": 140,
+  "technical_tiles_preserved": 4,
+  "technical_tile_ids": [
+    0,
+    20,
+    40,
+    60
+  ],
+  "tiles_handled": 144,
+  "groups_preserved": 4,
+  "internal_resource_name_preserved": true,
+  "exact_ptbr_masks_preserved": true,
+  "selection_states_preserved": true,
+  "original_resource_sha256": "ef298b1bf14c23dea58d870fdc23b3f15e8cb8f8f6968c0ee372441cee35e7ad",
+  "new_resource_sha256": "2d2f39fd9bb863a501a1fec2213fe297a4934db7c887b1a7aac40c99111fdc3e",
+  "old_resource_embedded": false,
+  "compaction": {
+    "removed_tiles": 0,
+    "removed_palettes": 0,
+    "added_palettes": 112
+  }
+}

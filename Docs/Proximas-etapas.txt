@@ -1,0 +1,18 @@
+TARZAN PC — ESTADO DO TRABALHO v1.2.8
+
+CONCLUÍDO
+- Pasta portátil e mídia local sem ISO/CD.
+- Áudio local WINMM, PT-BR, saves, controles, widescreen Hor+, MSAA e filtros.
+- 2.199 blocos remasterizados e auditados.
+- Dez recursos de interface HD, incluindo CONTROL com 251 blocos e 12 grupos.
+- Nome interno CONTROL.TEX e comandos PT-BR preservados.
+- FSD limpo, sem cópia do payload CONTROL substituído.
+
+PENDENTE NO WINDOWS 10/11
+- Testar partida completa, vídeos, troca de fases, faixas locais e GPUs diferentes.
+
+DEPOIS
+1. Revisar os nove recursos de telas auxiliares restantes.
+2. Continuar backgrounds e cenários.
+3. Retomar personagens e variantes.
+4. Futuramente modernizar partes do renderizador.

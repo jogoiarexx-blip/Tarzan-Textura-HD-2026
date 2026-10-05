@@ -1,0 +1,20 @@
+TARZAN PORTÁTIL v1.1.0 — TESTES AUTOMÁTICOS
+Win32, DirectDraw/Direct3D e BCrypt simulados; sem gameplay/GPU Windows real.
+
+15/15 grupos aplicáveis passaram.
+
+PASS — resolvedor x86 usa ..\DATA, trata arquivo ausente e inicia sem unidade de CD.
+PASS — 36 arquivos ECM com tabelas válidas; primeiro quadro decodificado pelo x86 nativo.
+PASS — carregamento de 41 imagens de início, gameplay, game over e créditos.
+PASS — menus PT-BR, atlas UI RGB555/RGB565, HUD, frutas, moeda e itens preservados.
+PASS — controles USB/XInput, remapeamento, deadzone e checksum do save.
+PASS — 168 combinações de resolução, MSAA, fullscreen, cores e filtros.
+PASS — iniciador x86 em DPI 100/125/150/200%, rolagem e caminhos Unicode.
+PASS — diagnóstico SHA256, arquivos ausentes/corrompidos e limpeza de recursos.
+PASS — DLL de imagem, Direct3D, Glide, widescreen, filmes e suavização compilados.
+PASS — 1158 blocos remasterizados, dimensões, alpha e hashes conferidos.
+PASS — 107673+ polígonos e carga conjunta de oito cenas/coortes de animais conferidos.
+PASS — pacote FSD com 1120 entradas únicas e limitadas aos próprios intervalos.
+
+Limite: esses testes não substituem a execução de uma partida completa no Windows 10/11,
+em GPU e dispositivo de áudio reais. A música original de CD permanece uma validação aberta.

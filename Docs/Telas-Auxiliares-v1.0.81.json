@@ -1,0 +1,20 @@
+{
+  "version": "1.0.81",
+  "category": "auxiliary-screens",
+  "asset": "MUSIC",
+  "resource_index": 1011,
+  "tiles_replaced": 136,
+  "groups_preserved": 4,
+  "tiny_native_glyph_slices_supported": true,
+  "internal_resource_name_preserved": true,
+  "exact_ptbr_masks_preserved": true,
+  "selection_states_preserved": true,
+  "original_resource_sha256": "748ee312743ded3a8cc91e3d4fc1a647568ee947483e4fd3405ba269067156e4",
+  "new_resource_sha256": "ff3affe00427d512ea232086e020244e1071ad61e245499478dc69ee1e5f4044",
+  "old_resource_embedded": false,
+  "compaction": {
+    "removed_tiles": 0,
+    "removed_palettes": 0,
+    "added_palettes": 101
+  }
+}

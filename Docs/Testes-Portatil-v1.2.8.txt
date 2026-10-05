@@ -1,0 +1,15 @@
+TARZAN PORTÁTIL v1.2.8 — TELA AUXILIAR CONTROL
+
+PASS — nome interno CONTROL.TEX preservado
+PASS — 251 de 251 blocos revisados
+PASS — 12 grupos e estados de seleção preservados
+PASS — comandos PT-BR, dimensões e transparência preservados
+PASS — famílias dourada e turquesa remasterizadas
+PASS — máscaras brancas e blocos técnicos preservados
+PASS — payload antigo removido do FSD reconstruído
+PASS — os outros 1119 recursos permaneceram idênticos
+PASS — FSD mantém 1120 entradas válidas e delimitadas
+PASS — total auditado atualizado de 1948 para 2199 blocos
+PASS — somente um arquivo FSD incluído
+
+PENDENTE — validação visual em Windows 10/11 real

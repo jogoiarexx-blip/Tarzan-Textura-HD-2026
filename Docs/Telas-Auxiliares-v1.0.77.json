@@ -1,0 +1,17 @@
+{
+  "version": "1.0.77",
+  "category": "auxiliary-screens",
+  "asset": "TITLE",
+  "resource_index": 1015,
+  "tiles_replaced": 61,
+  "groups_preserved": 5,
+  "original_resource_sha256": "5df0c5aa4baed1370cbe7682d94517d60421076342702ce13dc24883400decf7",
+  "new_resource_sha256": "3fe24a8a66b079dad41e3faa346a90345b4739831040abdc0dcb1d08c9e34e77",
+  "exact_ptbr_masks_preserved": true,
+  "old_resource_embedded": false,
+  "compaction": {
+    "removed_tiles": 0,
+    "removed_palettes": 0,
+    "added_palettes": 27
+  }
+}

@@ -1,0 +1,898 @@
+[
+  {
+    "en": "DIFFICULTY:       ",
+    "pt": "DIFICULDADE:     ",
+    "offsets": [
+      1073072
+    ]
+  },
+  {
+    "en": "GAME PLAY",
+    "pt": "JOGAR",
+    "offsets": [
+      1073092
+    ]
+  },
+  {
+    "en": "       CD MUSIC:              ",
+    "pt": "     MUSICA CD:              ",
+    "offsets": [
+      1073104
+    ]
+  },
+  {
+    "en": "CD MUSIC VOLUME:    %         ",
+    "pt": " VOLUME MUSICA:    %         ",
+    "offsets": [
+      1073136
+    ]
+  },
+  {
+    "en": "        EFFECTS:              ",
+    "pt": "        EFEITOS:              ",
+    "offsets": [
+      1073168
+    ]
+  },
+  {
+    "en": " EFFECTS VOLUME:    %         ",
+    "pt": " VOLUME EFEITOS:    %         ",
+    "offsets": [
+      1073200
+    ]
+  },
+  {
+    "en": "    EAX EFFECTS:              ",
+    "pt": "    EFEITOS EAX:              ",
+    "offsets": [
+      1073232
+    ]
+  },
+  {
+    "en": "CONTROLLER:     ",
+    "pt": "CONTROLE:       ",
+    "offsets": [
+      1073516
+    ]
+  },
+  {
+    "en": "RESET DEFAULTS",
+    "pt": "PADRAO",
+    "offsets": [
+      1073536
+    ]
+  },
+  {
+    "en": "GO BACK",
+    "pt": "VOLTAR",
+    "offsets": [
+      1073968
+    ]
+  },
+  {
+    "en": "START MODE:                  ",
+    "pt": "MODO INICIAL:                ",
+    "offsets": [
+      1073976
+    ]
+  },
+  {
+    "en": "   DISPLAY:                  ",
+    "pt": "     VIDEO:                  ",
+    "offsets": [
+      1074008
+    ]
+  },
+  {
+    "en": "EXIT",
+    "pt": "SAIR",
+    "offsets": [
+      1074040
+    ]
+  },
+  {
+    "en": "SOUND",
+    "pt": "AUDIO",
+    "offsets": [
+      1074048
+    ]
+  },
+  {
+    "en": "GRAPHICS",
+    "pt": "GRAFICOS",
+    "offsets": [
+      1074056
+    ]
+  },
+  {
+    "en": "JOYSTICK",
+    "pt": "CONTROLE",
+    "offsets": [
+      1074068
+    ]
+  },
+  {
+    "en": "KEYBOARD",
+    "pt": "TECLADO",
+    "offsets": [
+      1074080
+    ]
+  },
+  {
+    "en": "OPTIONS MENU",
+    "pt": "MENU OPCOES",
+    "offsets": [
+      1074092
+    ]
+  },
+  {
+    "en": "MENU KEYS: CURSORS, ENTER, ESC",
+    "pt": "MENU: SETAS, ENTER, ESC",
+    "offsets": [
+      1074108
+    ]
+  },
+  {
+    "en": "ALT+F4 - EXIT GAME",
+    "pt": "ALT+F4 - SAIR",
+    "offsets": [
+      1074140
+    ]
+  },
+  {
+    "en": "F10 SOFTWARE WINDOW  ",
+    "pt": "F10 MODO JANELA     ",
+    "offsets": [
+      1074160
+    ]
+  },
+  {
+    "en": "F9  SOFTWARE HIGH RES",
+    "pt": "F9  ALTA RESOLUCAO   ",
+    "offsets": [
+      1074184
+    ]
+  },
+  {
+    "en": "F8  SOFTWARE LOW RES ",
+    "pt": "F8  BAIXA RESOLUCAO  ",
+    "offsets": [
+      1074208
+    ]
+  },
+  {
+    "en": "F6  DIRECT3D CARD    ",
+    "pt": "F6  DIRECT3D        ",
+    "offsets": [
+      1074232
+    ]
+  },
+  {
+    "en": "F5  GLIDE 3D CARD    ",
+    "pt": "F5  GLIDE 3D        ",
+    "offsets": [
+      1074256
+    ]
+  },
+  {
+    "en": "F4  PAUSE  ",
+    "pt": "F4  PAUSAR ",
+    "offsets": [
+      1074280
+    ]
+  },
+  {
+    "en": "F2  OPTIONS",
+    "pt": "F2  OPCOES ",
+    "offsets": [
+      1074292
+    ]
+  },
+  {
+    "en": "F1  HELP   ",
+    "pt": "F1  AJUDA  ",
+    "offsets": [
+      1074304
+    ]
+  },
+  {
+    "en": "EXIT GAME",
+    "pt": "SAIR JOGO",
+    "offsets": [
+      1074440
+    ]
+  },
+  {
+    "en": "DEMO MODE",
+    "pt": "MODO DEMO",
+    "offsets": [
+      1074452
+    ]
+  },
+  {
+    "en": "RESCAN CD",
+    "pt": "BUSCAR CD",
+    "offsets": [
+      1074464
+    ]
+  },
+  {
+    "en": "INSERT THE GAME CD..",
+    "pt": "MONTE A ISO DO JOGO.",
+    "offsets": [
+      1074476
+    ]
+  },
+  {
+    "en": "CD APPLICATIONS AND",
+    "pt": "APLICATIVOS DO CD E",
+    "offsets": [
+      1074500
+    ]
+  },
+  {
+    "en": "YOU MUST CLOSE ALL OTHER",
+    "pt": "FECHE OUTROS PROGRAMAS",
+    "offsets": [
+      1074520
+    ]
+  },
+  {
+    "en": "TO PLAY TARZAN",
+    "pt": "PARA JOGAR",
+    "offsets": [
+      1074548
+    ]
+  },
+  {
+    "en": "F9 - SOFTWARE HIGH RES",
+    "pt": "F9 - ALTA RESOLUCAO",
+    "offsets": [
+      1074564
+    ]
+  },
+  {
+    "en": "F8 - SOFTWARE LOW RES",
+    "pt": "F8 - BAIXA RESOLUCAO",
+    "offsets": [
+      1074588
+    ]
+  },
+  {
+    "en": "F6 - DIRECT3D CARD ",
+    "pt": "F6 - DIRECT3D     ",
+    "offsets": [
+      1074612
+    ]
+  },
+  {
+    "en": "F5 - GLIDE 3D CARD ",
+    "pt": "F5 - GLIDE 3D     ",
+    "offsets": [
+      1074632
+    ]
+  },
+  {
+    "en": "MODE BY SELECTING:",
+    "pt": "MODO: SELECIONE",
+    "offsets": [
+      1074652
+    ]
+  },
+  {
+    "en": "INSTEAD, TRY A FULLSCREEN",
+    "pt": "TENTE A TELA CHEIA",
+    "offsets": [
+      1074672
+    ]
+  },
+  {
+    "en": "COLOR MODE.",
+    "pt": "DE CORES.",
+    "offsets": [
+      1074700
+    ]
+  },
+  {
+    "en": "IS NOT IN A HIGH OR TRUE",
+    "pt": "SEM MODO HIGH/TRUE COLOR",
+    "offsets": [
+      1074712
+    ]
+  },
+  {
+    "en": "WINDOW BECAUSE YOUR DISPLAY",
+    "pt": "MONITOR SEM CORES ADEQUADAS",
+    "offsets": [
+      1074740
+    ]
+  },
+  {
+    "en": "THE GAME CANNOT RUN IN THIS",
+    "pt": "JOGO NAO FUNCIONA NESTA",
+    "offsets": [
+      1074768
+    ]
+  },
+  {
+    "en": "QUIT LEVEL",
+    "pt": "SAIR FASE",
+    "offsets": [
+      1074796
+    ]
+  },
+  {
+    "en": "CONTINUE",
+    "pt": "CONTINUE",
+    "offsets": [
+      1074808
+    ]
+  },
+  {
+    "en": "PAUSED",
+    "pt": "PAUSA",
+    "offsets": [
+      1074820
+    ]
+  },
+  {
+    "en": "PLAY THE GAME IN A WINDOW",
+    "pt": "JOGAR EM UMA JANELA",
+    "offsets": [
+      1074828
+    ]
+  },
+  {
+    "en": "SELECT A NEW START MODE",
+    "pt": "MUDAR MODO INICIAL",
+    "offsets": [
+      1074856
+    ]
+  },
+  {
+    "en": "IGNORE THE PROBLEM",
+    "pt": "IGNORAR O PROBLEMA",
+    "offsets": [
+      1074880
+    ]
+  },
+  {
+    "en": "GAMES GRAPHICS MODE.",
+    "pt": "MODO GRAFICO JOGO.",
+    "offsets": [
+      1074900
+    ]
+  },
+  {
+    "en": "IT COULD HAVE BEEN CAUSED BY THE",
+    "pt": "POSSIVEL FALHA NO",
+    "offsets": [
+      1074924
+    ]
+  },
+  {
+    "en": "COMPUTER IT WAS TERMINATED ABRUPTLY.",
+    "pt": "O JOGO FOI FECHADO ABRUPTAMENTE.",
+    "offsets": [
+      1074960
+    ]
+  },
+  {
+    "en": "THE LAST TIME TARZAN RAN ON THIS",
+    "pt": "NA ULTIMA EXECUCAO NESTE PC",
+    "offsets": [
+      1075000
+    ]
+  },
+  {
+    "en": "RECOVERY MODE",
+    "pt": "RECUPERACAO",
+    "offsets": [
+      1075036
+    ]
+  },
+  {
+    "en": "EXIT GAME NOW?",
+    "pt": "SAIR DO JOGO?",
+    "offsets": [
+      1075060
+    ]
+  },
+  {
+    "en": "GAME PLAY OPTIONS CAN ONLY BE",
+    "pt": "OPCOES DO JOGO SO PODEM SER",
+    "offsets": [
+      1075100
+    ]
+  },
+  {
+    "en": "CHANGED DURING THE START GAME MENU",
+    "pt": "ALTERADAS NO MENU INICIAR JOGO",
+    "offsets": [
+      1075132
+    ]
+  },
+  {
+    "en": "PRESS KEY!",
+    "pt": "TECLE!",
+    "offsets": [
+      1075168
+    ]
+  },
+  {
+    "en": "NOT AVAILABLE",
+    "pt": "INDISPONIVEL",
+    "offsets": [
+      1075188
+    ]
+  },
+  {
+    "en": "HARD",
+    "pt": "DIF.",
+    "offsets": [
+      1075216
+    ]
+  },
+  {
+    "en": "MEDIUM",
+    "pt": "NORMAL",
+    "offsets": [
+      1075224
+    ]
+  },
+  {
+    "en": "EASY",
+    "pt": "FAC.",
+    "offsets": [
+      1075232
+    ]
+  },
+  {
+    "en": "NO SOUND CARD FOUND",
+    "pt": "SEM PLACA DE AUDIO",
+    "offsets": [
+      1068716
+    ]
+  },
+  {
+    "en": "DIRECTSOUND CARD",
+    "pt": "DIRECTSOUND",
+    "offsets": [
+      1068736
+    ]
+  },
+  {
+    "en": "EAX SOUND CARD",
+    "pt": "AUDIO EAX",
+    "offsets": [
+      1068756
+    ]
+  },
+  {
+    "en": "SOFTWARE WINDOW",
+    "pt": "MODO JANELA",
+    "offsets": [
+      1068772
+    ]
+  },
+  {
+    "en": "SOFTWARE HIGH RES",
+    "pt": "SOFTWARE ALTA RES",
+    "offsets": [
+      1068788
+    ]
+  },
+  {
+    "en": "SOFTWARE LOW RES",
+    "pt": "SOFTWARE BAIXA",
+    "offsets": [
+      1068808
+    ]
+  },
+  {
+    "en": "DIRECT3D CARD",
+    "pt": "DIRECT3D",
+    "offsets": [
+      1068828
+    ]
+  },
+  {
+    "en": "GLIDE 3D CARD",
+    "pt": "GLIDE 3D",
+    "offsets": [
+      1068844
+    ]
+  },
+  {
+    "en": "The game can only be run from a local hard disk.",
+    "pt": "O jogo precisa estar instalado no disco local.",
+    "offsets": [
+      1081788
+    ]
+  },
+  {
+    "en": "DDRAW HIGH RES NOT AVAILABLE",
+    "pt": "DDRAW ALTA RES INDISPONIVEL",
+    "offsets": [
+      1081860
+    ]
+  },
+  {
+    "en": "DDRAW LOW RES NOT AVAILABLE",
+    "pt": "DDRAW BAIXA RES INDISPONIV.",
+    "offsets": [
+      1081892
+    ]
+  },
+  {
+    "en": "DIRECT3D NOT AVAILABLE",
+    "pt": "DIRECT3D INDISPONIVEL",
+    "offsets": [
+      1081920
+    ]
+  },
+  {
+    "en": "GLIDE 3D NOT AVAILABLE",
+    "pt": "GLIDE 3D INDISPONIVEL",
+    "offsets": [
+      1081944
+    ]
+  },
+  {
+    "en": "IT CONFLICTS WITH A PREVIOUS MODE",
+    "pt": "CONFLITO COM O MODO ANTERIOR",
+    "offsets": [
+      1081968
+    ]
+  },
+  {
+    "en": "FAILED TO SETUP CARD",
+    "pt": "FALHA AO INICIAR GPU",
+    "offsets": [
+      1082004
+    ]
+  },
+  {
+    "en": "CARD NOT SUITABLE",
+    "pt": "GPU INCOMPATIVEL",
+    "offsets": [
+      1082028
+    ]
+  },
+  {
+    "en": "COMPATIBLE CARD NOT FOUND",
+    "pt": "GPU NAO ENCONTRADA",
+    "offsets": [
+      1082048
+    ]
+  },
+  {
+    "en": "Titles page",
+    "pt": "Tela titulo",
+    "offsets": [
+      992388
+    ]
+  },
+  {
+    "en": "Credits Screen",
+    "pt": "Creditos",
+    "offsets": [
+      992400
+    ]
+  },
+  {
+    "en": "Jungle Jumpin'",
+    "pt": "Salto na selva",
+    "offsets": [
+      992416
+    ]
+  },
+  {
+    "en": "Terk and Tantor",
+    "pt": "Terk e Tantor",
+    "offsets": [
+      992432
+    ]
+  },
+  {
+    "en": "Tree Surfing",
+    "pt": "Surfe arvore",
+    "offsets": [
+      992448
+    ]
+  },
+  {
+    "en": "Jungle Cruise",
+    "pt": "Passeio selva",
+    "offsets": [
+      992464
+    ]
+  },
+  {
+    "en": "Stork Ride",
+    "pt": "Voo ave",
+    "offsets": [
+      992480
+    ]
+  },
+  {
+    "en": "Clayton Conflict",
+    "pt": "Luta com Clayton",
+    "offsets": [
+      992492
+    ]
+  },
+  {
+    "en": "Tarzan Rescue",
+    "pt": "Resgate",
+    "offsets": [
+      992512
+    ]
+  },
+  {
+    "en": "Rockin' The Boat",
+    "pt": "Balanca o barco",
+    "offsets": [
+      992528
+    ]
+  },
+  {
+    "en": "The Tree House",
+    "pt": "Casa na arvore",
+    "offsets": [
+      992548
+    ]
+  },
+  {
+    "en": "Campsite Commotion",
+    "pt": "Confusao na base",
+    "offsets": [
+      992564
+    ]
+  },
+  {
+    "en": "Trashing the Camp",
+    "pt": "Bagunca na base",
+    "offsets": [
+      992584
+    ]
+  },
+  {
+    "en": "The Baboon Chase",
+    "pt": "Caca dos babunos",
+    "offsets": [
+      992604
+    ]
+  },
+  {
+    "en": "Sabor Attacks",
+    "pt": "Sabor ataca",
+    "offsets": [
+      992624
+    ]
+  },
+  {
+    "en": "Coming Of Age",
+    "pt": "Crescendo",
+    "offsets": [
+      992640
+    ]
+  },
+  {
+    "en": "Stampede",
+    "pt": "Manada!",
+    "offsets": [
+      992656
+    ]
+  },
+  {
+    "en": "Elephant Hair Dare",
+    "pt": "Pelo de elefante",
+    "offsets": [
+      992668
+    ]
+  },
+  {
+    "en": "Going Ape",
+    "pt": "Macaco",
+    "offsets": [
+      992688
+    ]
+  },
+  {
+    "en": "Jungle Welcome",
+    "pt": "Ola selva",
+    "offsets": [
+      992700
+    ]
+  },
+  {
+    "en": "Conflict With Clayton",
+    "pt": "Confronto com Clayton",
+    "offsets": [
+      1037192
+    ]
+  },
+  {
+    "en": "Tarzan To The Rescue",
+    "pt": "Tarzan ao resgate",
+    "offsets": [
+      1037216
+    ]
+  },
+  {
+    "en": "Journey To The Treehouse",
+    "pt": "Rumo a casa na arvore",
+    "offsets": [
+      1037240
+    ]
+  },
+  {
+    "en": "The Elephant Hair Dare",
+    "pt": "O desafio do elefante",
+    "offsets": [
+      1037268
+    ]
+  },
+  {
+    "en": "Welcome To The Jungle",
+    "pt": "Bem-vindo a selva",
+    "offsets": [
+      1037292
+    ]
+  },
+  {
+    "en": " SHOW STATUS BUTTON:     ",
+    "pt": " BOTAO STATUS:           ",
+    "offsets": [
+      1073264
+    ]
+  },
+  {
+    "en": " STAB WEAPON BUTTON:     ",
+    "pt": " BOTAO ESTOCAR:          ",
+    "offsets": [
+      1073292
+    ]
+  },
+  {
+    "en": "SWIPE WEAPON BUTTON:     ",
+    "pt": " BOTAO CORTE ARMA:       ",
+    "offsets": [
+      1073320
+    ]
+  },
+  {
+    "en": " PREV WEAPON BUTTON:     ",
+    "pt": " BOTAO ARMA ANTER.:      ",
+    "offsets": [
+      1073348
+    ]
+  },
+  {
+    "en": " NEXT WEAPON BUTTON:     ",
+    "pt": " BOTAO PROX. ARMA:       ",
+    "offsets": [
+      1073376
+    ]
+  },
+  {
+    "en": "   LOW THROW BUTTON:     ",
+    "pt": " BOTAO ARREM. BAIXO:     ",
+    "offsets": [
+      1073404
+    ]
+  },
+  {
+    "en": "  HIGH THROW BUTTON:     ",
+    "pt": " BOTAO ARREM. ALTO:      ",
+    "offsets": [
+      1073432
+    ]
+  },
+  {
+    "en": "       POUND BUTTON:     ",
+    "pt": " BOTAO GOLPE CHAO:       ",
+    "offsets": [
+      1073460
+    ]
+  },
+  {
+    "en": "        JUMP BUTTON:     ",
+    "pt": " BOTAO PULAR:            ",
+    "offsets": [
+      1073488
+    ]
+  },
+  {
+    "en": " SHOW STATUS KEY:           ",
+    "pt": " TECLA STATUS:              ",
+    "offsets": [
+      1073552
+    ]
+  },
+  {
+    "en": " STAB WEAPON KEY:           ",
+    "pt": " TECLA ESTOCAR:             ",
+    "offsets": [
+      1073584
+    ]
+  },
+  {
+    "en": "SWIPE WEAPON KEY:           ",
+    "pt": " TECLA CORTE ARMA:          ",
+    "offsets": [
+      1073616
+    ]
+  },
+  {
+    "en": " PREV WEAPON KEY:           ",
+    "pt": " TECLA ARMA ANTER.:         ",
+    "offsets": [
+      1073648
+    ]
+  },
+  {
+    "en": " NEXT WEAPON KEY:           ",
+    "pt": " TECLA PROX. ARMA:          ",
+    "offsets": [
+      1073680
+    ]
+  },
+  {
+    "en": "   LOW THROW KEY:           ",
+    "pt": " TECLA ARREM. BAIXO:        ",
+    "offsets": [
+      1073712
+    ]
+  },
+  {
+    "en": "  HIGH THROW KEY:           ",
+    "pt": " TECLA ARREM. ALTO:         ",
+    "offsets": [
+      1073744
+    ]
+  },
+  {
+    "en": "       POUND KEY:           ",
+    "pt": " TECLA GOLPE CHAO:          ",
+    "offsets": [
+      1073776
+    ]
+  },
+  {
+    "en": "        JUMP KEY:           ",
+    "pt": " TECLA PULAR:               ",
+    "offsets": [
+      1073808
+    ]
+  },
+  {
+    "en": "       RIGHT KEY:           ",
+    "pt": " TECLA DIREITA:             ",
+    "offsets": [
+      1073840
+    ]
+  },
+  {
+    "en": "        LEFT KEY:           ",
+    "pt": " TECLA ESQUERDA:            ",
+    "offsets": [
+      1073872
+    ]
+  },
+  {
+    "en": "        DOWN KEY:           ",
+    "pt": " TECLA BAIXO:               ",
+    "offsets": [
+      1073904
+    ]
+  },
+  {
+    "en": "          UP KEY:           ",
+    "pt": " TECLA CIMA:                ",
+    "offsets": [
+      1073936
+    ]
+  }
+]

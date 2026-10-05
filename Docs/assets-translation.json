@@ -1,0 +1,732 @@
+[
+  {
+    "asset": "TITLE",
+    "group": 0,
+    "texts": [
+      "INICIAR JOGO",
+      "OPÇÕES",
+      "CARREGAR JOGO"
+    ]
+  },
+  {
+    "asset": "TITLE",
+    "group": 1,
+    "texts": [
+      "TRUQUES"
+    ]
+  },
+  {
+    "asset": "TITLE",
+    "group": 2,
+    "texts": [
+      "CARREGAR JOGO"
+    ]
+  },
+  {
+    "asset": "TITLE",
+    "group": 3,
+    "texts": [
+      "OPÇÕES"
+    ]
+  },
+  {
+    "asset": "TITLE",
+    "group": 4,
+    "texts": [
+      "INICIAR JOGO"
+    ]
+  },
+  {
+    "asset": "PCTITLE",
+    "group": 0,
+    "texts": [
+      "SAIR DO JOGO"
+    ]
+  },
+  {
+    "asset": "PCTITLE",
+    "group": 1,
+    "texts": [
+      "SAIR DO JOGO"
+    ]
+  },
+  {
+    "asset": "PCTITLE",
+    "group": 2,
+    "texts": [
+      "TRUQUES"
+    ]
+  },
+  {
+    "asset": "PCTITLE",
+    "group": 3,
+    "texts": [
+      "ENTER: JOGAR",
+      "ESC: SAIR"
+    ]
+  },
+  {
+    "asset": "PCTITLE",
+    "group": 4,
+    "texts": [
+      "ESC: SAIR",
+      "ENTER: SELECIONAR"
+    ]
+  },
+  {
+    "asset": "PCTITLE",
+    "group": 5,
+    "texts": [
+      "ENTER PARA SELECIONAR"
+    ]
+  },
+  {
+    "asset": "PCTITLE",
+    "group": 6,
+    "texts": [
+      "ENTER: CARREGAR",
+      "ESC: SAIR"
+    ]
+  },
+  {
+    "asset": "PCTITLE",
+    "group": 7,
+    "texts": [
+      "ENTER: SALVAR",
+      "ESC: SAIR"
+    ]
+  },
+  {
+    "asset": "PCTITLE",
+    "group": 9,
+    "texts": [
+      "ENTER",
+      "PARA CONTINUAR"
+    ]
+  },
+  {
+    "asset": "PCTITLE",
+    "group": 8,
+    "texts": [
+      "ENTER PARA SALVAR",
+      "ESC PARA CONTINUAR"
+    ]
+  },
+  {
+    "asset": "OPTIONS",
+    "group": 0,
+    "texts": [
+      "Opções",
+      "Dificuldade",
+      "Controle",
+      "Som",
+      "Vídeos"
+    ]
+  },
+  {
+    "asset": "OPTIONS",
+    "group": 1,
+    "texts": [
+      "Opções",
+      "Dificuldade",
+      "Controle",
+      "Som",
+      "Vídeos"
+    ]
+  },
+  {
+    "asset": "OPTIONS",
+    "group": 2,
+    "texts": [
+      "Opções",
+      "Dificuldade",
+      "Controle",
+      "Som",
+      "Vídeos"
+    ]
+  },
+  {
+    "asset": "OPTIONS",
+    "group": 3,
+    "texts": [
+      "Opções",
+      "Dificuldade",
+      "Controle",
+      "Som",
+      "Vídeos"
+    ]
+  },
+  {
+    "asset": "OPTIONS",
+    "group": 4,
+    "texts": [
+      "Som",
+      "Música",
+      "Efeitos"
+    ]
+  },
+  {
+    "asset": "OPTIONS",
+    "group": 5,
+    "texts": [
+      "Som",
+      "Música",
+      "Efeitos"
+    ]
+  },
+  {
+    "asset": "OPTIONS",
+    "group": 6,
+    "texts": [
+      "Selecionar / Voltar"
+    ]
+  },
+  {
+    "asset": "DIFF",
+    "group": 0,
+    "texts": [
+      "Dificuldade",
+      "Fácil",
+      "Normal",
+      "Difícil"
+    ]
+  },
+  {
+    "asset": "DIFF",
+    "group": 1,
+    "texts": [
+      "Dificuldade",
+      "Fácil",
+      "Normal",
+      "Difícil"
+    ]
+  },
+  {
+    "asset": "DIFF",
+    "group": 2,
+    "texts": [
+      "Dificuldade",
+      "Fácil",
+      "Normal",
+      "Difícil"
+    ]
+  },
+  {
+    "asset": "DIFF",
+    "group": 3,
+    "texts": [
+      "Dificuldade",
+      "Fácil",
+      "Normal",
+      "Difícil"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 0,
+    "texts": [
+      "Controle",
+      "Vibração"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 1,
+    "texts": [
+      "Controle",
+      "Vibração"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 3,
+    "texts": [
+      "1",
+      "Pular",
+      "Golpear chão",
+      "Arremesso alto",
+      "Arremesso baixo",
+      "Trocar fruta",
+      "Cortar",
+      "Estocar"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 4,
+    "texts": [
+      "2",
+      "Arremesso alto",
+      "Golpear chão",
+      "Pular",
+      "Arremesso baixo",
+      "Trocar fruta",
+      "Cortar",
+      "Estocar"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 5,
+    "texts": [
+      "3",
+      "Pular",
+      "Arremesso baixo",
+      "Arremesso alto",
+      "Golpear chão",
+      "Trocar fruta",
+      "Estocar",
+      "Cortar"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 6,
+    "texts": [
+      "Configurar"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 7,
+    "texts": [
+      "Configurar"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 8,
+    "texts": [
+      "Desligado"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 9,
+    "texts": [
+      "Desligado"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 10,
+    "texts": [
+      "Ligado"
+    ]
+  },
+  {
+    "asset": "CONTROL",
+    "group": 11,
+    "texts": [
+      "Ligado"
+    ]
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 0,
+    "texts": "Tarzan:\nfase"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 1,
+    "texts": "Concluído\nFácil"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 2,
+    "texts": "Concluído\nDifícil"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 3,
+    "texts": "Concluído\nNormal"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 4,
+    "texts": "Introdução"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 5,
+    "texts": "Luta com\nSabor"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 6,
+    "texts": "Fim de\nSabor"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 7,
+    "texts": "Fim de\nClayton"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 8,
+    "texts": "Boas-vindas\nà selva"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 9,
+    "texts": "Vida de\nmacaco"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 10,
+    "texts": "Crescendo"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 11,
+    "texts": "Sabor\nataca"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 12,
+    "texts": "Confronto com\nClayton"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 13,
+    "texts": "Debandada"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 14,
+    "texts": "Desafio do\npelo de elefante"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 15,
+    "texts": "A perseguição\ndos babuínos"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 16,
+    "texts": "Bagunça no\nacampamento"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 17,
+    "texts": "Confusão no\nacampamento"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 18,
+    "texts": "A casa\nna árvore"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 19,
+    "texts": "Balançando\no barco"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 20,
+    "texts": "Tarzan ao\nresgate"
+  },
+  {
+    "asset": "LEVNAMES",
+    "group": 21,
+    "texts": "Jogo\nconcluído"
+  },
+  {
+    "asset": "TALLY",
+    "group": 1,
+    "texts": [
+      "MOEDAS COLETADAS",
+      "FASE CONCLUÍDA"
+    ]
+  },
+  {
+    "asset": "TALLY",
+    "group": 2,
+    "texts": [
+      "BÔNUS CONCLUÍDO"
+    ]
+  },
+  {
+    "asset": "TALLY",
+    "group": 4,
+    "texts": [
+      "CONTINUAR"
+    ]
+  },
+  {
+    "asset": "TALLY",
+    "group": 5,
+    "texts": [
+      "VÍDEO LIBERADO"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 0,
+    "texts": [
+      "CARTÃO DE MEMÓRIA",
+      "não inserido",
+      "Insira o cartão",
+      "no espaço 1"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 1,
+    "texts": [
+      "Erro!"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 2,
+    "texts": [
+      "Cartão de memória",
+      "não formatado",
+      "Formatar?"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 3,
+    "texts": [
+      "Tarzan:"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 4,
+    "texts": [
+      "Não é Tarzan"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 5,
+    "texts": [
+      "Formatando"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 7,
+    "texts": [
+      "Vazio"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 8,
+    "texts": [
+      "Carregar jogo"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 9,
+    "texts": [
+      "Salvar jogo"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 10,
+    "texts": [
+      "Este arquivo",
+      "não é um jogo",
+      "salvo de Tarzan!"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 11,
+    "texts": [
+      "Confirmar",
+      "carregamento"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 13,
+    "texts": [
+      "Sim",
+      "Não"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 14,
+    "texts": [
+      "Substituir"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 15,
+    "texts": [
+      "Salvar"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 16,
+    "texts": [
+      "Carregar"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 17,
+    "texts": [
+      "Sair"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 18,
+    "texts": [
+      "Confirmar",
+      "substituição"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 21,
+    "texts": [
+      "Verificando",
+      "cartão de memória"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 22,
+    "texts": [
+      "Salvando",
+      "Não remova",
+      "o cartão de memória"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 23,
+    "texts": [
+      "Cartão de memória",
+      "não formatado.",
+      "Deseja formatar?"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 24,
+    "texts": [
+      "Cartão de memória",
+      "cheio.",
+      "Insira outro",
+      "cartão de memória"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 25,
+    "texts": [
+      "Requer 1 bloco"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 26,
+    "texts": [
+      "Falha ao salvar"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 27,
+    "texts": [
+      "Cartão de memória",
+      "não formatado.",
+      "Insira um cartão",
+      "formatado",
+      "no espaço 1"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 28,
+    "texts": [
+      "Cartão de memória cheio"
+    ]
+  },
+  {
+    "asset": "LOAD",
+    "group": 29,
+    "texts": [
+      "Concluído"
+    ]
+  },
+  {
+    "asset": "MUSIC",
+    "group": 0,
+    "texts": [
+      "Música",
+      "Máximo",
+      "Médio",
+      "Desligado"
+    ]
+  },
+  {
+    "asset": "MUSIC",
+    "group": 1,
+    "texts": [
+      "Música",
+      "Máximo",
+      "Médio",
+      "Desligado"
+    ]
+  },
+  {
+    "asset": "MUSIC",
+    "group": 2,
+    "texts": [
+      "Música",
+      "Máximo",
+      "Médio",
+      "Desligado"
+    ]
+  },
+  {
+    "asset": "MUSIC",
+    "group": 3,
+    "texts": [
+      "Música",
+      "Máximo",
+      "Médio",
+      "Desligado"
+    ]
+  },
+  {
+    "asset": "SFX",
+    "group": 0,
+    "texts": [
+      "Efeitos",
+      "Mono",
+      "Estéreo"
+    ]
+  },
+  {
+    "asset": "SFX",
+    "group": 1,
+    "texts": [
+      "Efeitos",
+      "Mono",
+      "Estéreo"
+    ]
+  },
+  {
+    "asset": "REPLAY",
+    "group": 1,
+    "texts": [
+      "REINICIAR FASE"
+    ]
+  }
+]

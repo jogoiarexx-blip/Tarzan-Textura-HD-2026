@@ -1,0 +1,131 @@
+{
+  "version": "1.0.68",
+  "reference": "1.0.67",
+  "native_size": [
+    16,
+    16
+  ],
+  "maximum_iris_center_distance_pixels": 2.5,
+  "checks": [
+    {
+      "tile": 1,
+      "original_iris_center": [
+        10.166666666666666,
+        9.0
+      ],
+      "new_iris_center": [
+        8.285714285714286,
+        8.857142857142858
+      ]
+    },
+    {
+      "tile": 2,
+      "original_iris_center": [
+        4.833333333333333,
+        9.0
+      ],
+      "new_iris_center": [
+        4.444444444444445,
+        9.0
+      ]
+    },
+    {
+      "tile": 5,
+      "original_iris_center": [
+        10.11111111111111,
+        2.6666666666666665
+      ],
+      "new_iris_center": [
+        9.714285714285714,
+        4.428571428571429
+      ]
+    },
+    {
+      "tile": 6,
+      "original_iris_center": [
+        7.166666666666667,
+        9.0
+      ],
+      "new_iris_center": [
+        7.6,
+        8.8
+      ]
+    },
+    {
+      "tile": 7,
+      "original_iris_center": [
+        3.0,
+        8.5
+      ],
+      "new_iris_center": [
+        4.142857142857143,
+        8.285714285714286
+      ]
+    },
+    {
+      "tile": 8,
+      "original_iris_center": [
+        4.888888888888889,
+        2.6666666666666665
+      ],
+      "new_iris_center": [
+        5.555555555555555,
+        3.888888888888889
+      ]
+    },
+    {
+      "tile": 9,
+      "original_iris_center": null,
+      "new_iris_center": null
+    },
+    {
+      "tile": 10,
+      "original_iris_center": [
+        12.0,
+        8.5
+      ],
+      "new_iris_center": [
+        12.0,
+        8.142857142857142
+      ]
+    },
+    {
+      "tile": 11,
+      "original_iris_center": [
+        7.833333333333333,
+        9.0
+      ],
+      "new_iris_center": [
+        6.0,
+        8.0
+      ]
+    },
+    {
+      "tile": 12,
+      "original_iris_center": null,
+      "new_iris_center": null
+    },
+    {
+      "tile": 13,
+      "original_iris_center": [
+        10.166666666666666,
+        9.0
+      ],
+      "new_iris_center": [
+        9.25,
+        8.875
+      ]
+    },
+    {
+      "tile": 14,
+      "original_iris_center": [
+        4.833333333333333,
+        9.0
+      ],
+      "new_iris_center": [
+        5.444444444444445,
+        9.0
+      ]
+    }
+  ]
+}

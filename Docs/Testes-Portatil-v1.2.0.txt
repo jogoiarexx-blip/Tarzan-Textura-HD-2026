@@ -1,0 +1,12 @@
+TARZAN PORTÁTIL v1.2.0 — TESTES
+
+PASS — projeção Hor+ preserva 480 linhas e compensa X em 3/4
+PASS — 16:9 exibe 33% mais área lateral
+PASS — modo 4:3 permanece sem transformação
+PASS — vídeo 4:3 ocupa a altura completa com pillarbox lateral
+PASS — RGB555 e RGB565 preservam cores uniformes no redimensionamento
+PASS — módulo TarzanImagem.dll é PE32/x86
+PASS — cinco exports nativos presentes
+PASS — módulo sem dependências MinGW externas
+
+PENDENTE — validação visual e de desempenho em GPU/Windows 10/11 real

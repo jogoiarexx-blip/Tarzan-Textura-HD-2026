@@ -1,0 +1,8 @@
+Tarzan v1.5.1 - inventario de DLLs locais
+D3DImm.dll
+DDraw.dll
+Glide.dll
+Glide2x.dll
+Glide3x.dll
+TarzanImagem.dll
+winmm.dll

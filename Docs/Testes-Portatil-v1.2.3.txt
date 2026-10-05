@@ -1,0 +1,13 @@
+TARZAN PORTÁTIL v1.2.3 — TELA AUXILIAR PCTITLE
+
+PASS — recurso PCTITLE localizado pelo hash nativo correto
+PASS — 111 de 111 blocos substituídos em 10 grupos
+PASS — dimensões, transparência e referências originais preservadas
+PASS — máscaras, palavras PT-BR e alinhamento exatos preservados
+PASS — estados preto, branco e dourado de seleção preservados
+PASS — payload antigo removido do FSD reconstruído
+PASS — FSD mantém 1120 entradas válidas e delimitadas
+PASS — total auditado atualizado de 1259 para 1370 blocos
+PASS — somente um arquivo FSD de jogo incluído no pacote
+
+PENDENTE — validação visual da tela PCTITLE em Windows 10/11 real

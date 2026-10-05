@@ -1,0 +1,19 @@
+TARZAN PC — PROGRESSO VISUAL v1.0.83
+
+Concluído e auditado: 2.199 blocos de textura.
+
+Personagens e variantes:
+- 112 blocos ainda fora da revisão em 35 recursos; incluem repetições e técnicos.
+
+Modelos e objetos em geral:
+- 580 blocos fora da auditoria visual, correspondentes a 377 padrões distintos.
+
+Telas auxiliares:
+- 19 recursos catalogados; dez concluídos: TIT_BACK, OPT_BACK, LOADBACK,
+  TITLE, PCTITLE, DIFF, OPTIONS, MUSIC, SFX e CONTROL.
+- Restam nove recursos, somando 1.275 blocos internos.
+- CONTROL teve seus 251 blocos revistos em 12 grupos.
+- Os números restantes incluem fontes, letras, repetições e mosaicos, não sendo
+  equivalentes à mesma quantidade de pinturas novas.
+
+Ordem: concluir telas auxiliares; continuar backgrounds/cenários; retomar personagens.

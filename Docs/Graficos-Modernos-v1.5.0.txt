@@ -1,0 +1,31 @@
+TARZAN PC PORTATIL PT-BR v1.5.0 - GRAFICOS MODERNOS
+
+BASE
+- Base funcional restaurada v1.3.9.
+- Nenhuma tela/textura nova e aplicada nesta etapa.
+- tarzan.fsd permanece no conjunto que abriu corretamente.
+
+NOVO CONFIGURADOR
+Abra Tarzan-Graficos-Moderno.cmd.
+
+IMPLEMENTADO
+- Resolucao: original, 720p, 1080p, 1440p, 4K e resolucao do monitor.
+- Tela: Janela, Borderless e Fullscreen real separados.
+- MSAA: Off, 2x, 4x e 8x.
+- Filtragem Direct3D: Bilinear, Trilinear e Anisotropico 4x/8x/16x.
+- V-Sync: On/Off.
+- Nitidez de upscale: Off=Bicubic, Baixo=Lanczos-2, Medio=Lanczos-3.
+- Renderizador: Glide ou Direct3D. Filtros trilinear/aniso selecionam Direct3D automaticamente.
+- Backups automaticos de dgVoodoo.conf e tarzan.cfg antes de salvar.
+
+FXAA
+- NAO foi falsamente mapeado para MSAA/Lanczos.
+- dgVoodoo 2.87 nao oferece FXAA como opcao nativa.
+- A estrutura fica pronta para um modulo de pos-processamento futuro (FXAA real).
+
+OBSERVACAO SOBRE SHARPENING
+- Baixo/Medio nesta etapa sao nitidez do redimensionamento por Lanczos-2/3.
+- Nao e um passe CAS/unsharp independente.
+
+PRESERVADO
+- Portatil/sem ISO para gameplay, PT-BR, controles, winmm local, wrappers modernos, Hor+ e base HD funcional.

@@ -1,0 +1,12 @@
+TARZAN PORTÁTIL v1.2.1 — TELA AUXILIAR LOADBACK
+
+PASS — recurso LOADBACK localizado pelo hash nativo correto
+PASS — 40 de 40 blocos substituídos
+PASS — mosaico reconstruído em 640x256
+PASS — dimensões e referências do grupo original preservadas
+PASS — transparência original preservada por bloco
+PASS — payload antigo removido do FSD reconstruído
+PASS — FSD mantém 1120 entradas válidas e delimitadas
+PASS — total auditado atualizado de 1158 para 1198 blocos
+
+PENDENTE — validação visual da tela de carregamento em Windows 10/11 real

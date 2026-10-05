@@ -1,0 +1,23 @@
+{
+  "version": "1.0.76",
+  "category": "auxiliary-screens",
+  "asset": "LOADBACK",
+  "resource_index": 82,
+  "tiles_replaced": 40,
+  "original_resource_sha256": "0b641d31573159ac00e3b59d0e610a1114d2d2519f75a8831cdd4a3e2d0572b1",
+  "new_resource_sha256": "73c9dbfe0728274756acc6bdc3af01b7d7975f50058154c92768b5a281cb8286",
+  "old_resource_embedded": false,
+  "screen_size": [
+    640,
+    256
+  ],
+  "generated_source_size": [
+    1983,
+    793
+  ],
+  "compaction": {
+    "removed_tiles": 0,
+    "removed_palettes": 0,
+    "added_palettes": 37
+  }
+}

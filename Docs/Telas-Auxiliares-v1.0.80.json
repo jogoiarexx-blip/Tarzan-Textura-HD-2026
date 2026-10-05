@@ -1,0 +1,20 @@
+{
+  "version": "1.0.80",
+  "category": "auxiliary-screens",
+  "asset": "OPTIONS",
+  "resource_index": 992,
+  "tiles_replaced": 262,
+  "groups_preserved": 7,
+  "tiny_native_glyph_slices_supported": true,
+  "internal_resource_name_preserved": true,
+  "exact_ptbr_masks_preserved": true,
+  "selection_states_preserved": true,
+  "original_resource_sha256": "003194769f56128af136ce15fe86060c8b0007d2f1d3659e98fb1d756b9420c8",
+  "new_resource_sha256": "d360eda5ebfd72965d88023db245baa20420babfdbc493e87efccbfefe0fe2c0",
+  "old_resource_embedded": false,
+  "compaction": {
+    "removed_tiles": 0,
+    "removed_palettes": 0,
+    "added_palettes": 204
+  }
+}

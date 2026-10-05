@@ -1,0 +1,92 @@
+{
+  "version": "1.0.75",
+  "scope": "Eight main scene resources; excludes models and language screens",
+  "scenes": [
+    {
+      "asset": "MONKEY",
+      "total": 88,
+      "remaining": 2,
+      "static_32_or_larger": 1,
+      "animated": 0,
+      "remaining_ids": [
+        32,
+        87
+      ]
+    },
+    {
+      "asset": "GO_APE",
+      "total": 106,
+      "remaining": 2,
+      "static_32_or_larger": 1,
+      "animated": 0,
+      "remaining_ids": [
+        94,
+        105
+      ]
+    },
+    {
+      "asset": "ELEFALLS",
+      "total": 102,
+      "remaining": 3,
+      "static_32_or_larger": 0,
+      "animated": 1,
+      "remaining_ids": [
+        76,
+        82,
+        101
+      ]
+    },
+    {
+      "asset": "T_HOUSE",
+      "total": 127,
+      "remaining": 2,
+      "static_32_or_larger": 1,
+      "animated": 0,
+      "remaining_ids": [
+        120,
+        126
+      ]
+    },
+    {
+      "asset": "SABORMAP",
+      "total": 116,
+      "remaining": 1,
+      "static_32_or_larger": 0,
+      "animated": 0,
+      "remaining_ids": [
+        115
+      ]
+    },
+    {
+      "asset": "CLAYMAP",
+      "total": 56,
+      "remaining": 0,
+      "static_32_or_larger": 0,
+      "animated": 0,
+      "remaining_ids": []
+    },
+    {
+      "asset": "CAMPING",
+      "total": 147,
+      "remaining": 1,
+      "static_32_or_larger": 0,
+      "animated": 0,
+      "remaining_ids": [
+        146
+      ]
+    },
+    {
+      "asset": "BOAT",
+      "total": 87,
+      "remaining": 1,
+      "static_32_or_larger": 0,
+      "animated": 0,
+      "remaining_ids": [
+        86
+      ]
+    }
+  ],
+  "remaining": 12,
+  "all_fsd_tex_blocks": 5342,
+  "remastered_audited_blocks": 1158
+}

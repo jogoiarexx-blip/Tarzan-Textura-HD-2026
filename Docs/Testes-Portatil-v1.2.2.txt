@@ -1,0 +1,13 @@
+TARZAN PORTÁTIL v1.2.2 — TELA AUXILIAR TITLE
+
+PASS — recurso TITLE localizado pelo hash nativo correto
+PASS — 61 de 61 blocos substituídos em 5 grupos
+PASS — dimensões, transparência e referências originais preservadas
+PASS — máscaras e textos PT-BR exatos preservados
+PASS — estados branco/preto de seleção preservados
+PASS — payload antigo removido do FSD reconstruído
+PASS — FSD mantém 1120 entradas válidas e delimitadas
+PASS — total auditado atualizado de 1198 para 1259 blocos
+PASS — somente um arquivo FSD de jogo incluído no pacote
+
+PENDENTE — validação visual da tela TITLE em Windows 10/11 real

@@ -1,0 +1,144 @@
+{
+  "version": "1.0.75",
+  "scope": "Eight main scenes only; excludes models and language screens",
+  "counts": {
+    "sparse_particle_points": 3,
+    "native_16x16_color_blocks": 8,
+    "native_animation": 1
+  },
+  "reference": "1.0.74",
+  "records": [
+    {
+      "asset": "MONKEY",
+      "tile": 32,
+      "dimensions": [
+        64,
+        64
+      ],
+      "kind": "sparse_particle_points",
+      "sha256_rgba": "5e81bd5c9b145feea3da1e93932497fc53a56ce1104cfc90024f788ab7a7b00b",
+      "preserved": true
+    },
+    {
+      "asset": "MONKEY",
+      "tile": 87,
+      "dimensions": [
+        16,
+        16
+      ],
+      "kind": "native_16x16_color_block",
+      "sha256_rgba": "35d2dbd795f39bda6329bab8cc0879801f87301d288c5562e763abdb31c9d496",
+      "preserved": true
+    },
+    {
+      "asset": "GO_APE",
+      "tile": 94,
+      "dimensions": [
+        64,
+        64
+      ],
+      "kind": "sparse_particle_points",
+      "sha256_rgba": "5e81bd5c9b145feea3da1e93932497fc53a56ce1104cfc90024f788ab7a7b00b",
+      "preserved": true
+    },
+    {
+      "asset": "GO_APE",
+      "tile": 105,
+      "dimensions": [
+        16,
+        16
+      ],
+      "kind": "native_16x16_color_block",
+      "sha256_rgba": "2581148b0f290511a4184956aab661dd11f8d91e488eee981b613a20baa8e796",
+      "preserved": true
+    },
+    {
+      "asset": "ELEFALLS",
+      "tile": 76,
+      "dimensions": [
+        16,
+        16
+      ],
+      "kind": "native_16x16_color_block",
+      "sha256_rgba": "6589d253440010a39da907611fd46ddfac9202c1a6dc05f912d6b7deee591c54",
+      "preserved": true
+    },
+    {
+      "asset": "ELEFALLS",
+      "tile": 82,
+      "dimensions": [
+        64,
+        64
+      ],
+      "kind": "native_animation",
+      "sha256_rgba": "04c826d1244ed0095db84134823432a86df917bbac7b3ef1fc111b8b0b7c51a7",
+      "preserved": true
+    },
+    {
+      "asset": "ELEFALLS",
+      "tile": 101,
+      "dimensions": [
+        16,
+        16
+      ],
+      "kind": "native_16x16_color_block",
+      "sha256_rgba": "403fb912552996dfd346d1c5788e529c3bd2fb383b9150b18e1b877c85bc65fe",
+      "preserved": true
+    },
+    {
+      "asset": "T_HOUSE",
+      "tile": 120,
+      "dimensions": [
+        64,
+        64
+      ],
+      "kind": "sparse_particle_points",
+      "sha256_rgba": "5e81bd5c9b145feea3da1e93932497fc53a56ce1104cfc90024f788ab7a7b00b",
+      "preserved": true
+    },
+    {
+      "asset": "T_HOUSE",
+      "tile": 126,
+      "dimensions": [
+        16,
+        16
+      ],
+      "kind": "native_16x16_color_block",
+      "sha256_rgba": "2581148b0f290511a4184956aab661dd11f8d91e488eee981b613a20baa8e796",
+      "preserved": true
+    },
+    {
+      "asset": "SABORMAP",
+      "tile": 115,
+      "dimensions": [
+        16,
+        16
+      ],
+      "kind": "native_16x16_color_block",
+      "sha256_rgba": "43ae8ba1f24e323a8442cdf54cdf0075009caa6043e35b1a20558d9f59a10ea1",
+      "preserved": true
+    },
+    {
+      "asset": "CAMPING",
+      "tile": 146,
+      "dimensions": [
+        16,
+        16
+      ],
+      "kind": "native_16x16_color_block",
+      "sha256_rgba": "edeca59dc392b9375600ed30b4c1a1515bd7447be2b5a336e3a567001c750fbc",
+      "preserved": true
+    },
+    {
+      "asset": "BOAT",
+      "tile": 86,
+      "dimensions": [
+        16,
+        16
+      ],
+      "kind": "native_16x16_color_block",
+      "sha256_rgba": "40ea9187bc3ca95ec3496126a13a253220f97d387988f4ccb7279cd835ff19f3",
+      "preserved": true
+    }
+  ]
+}

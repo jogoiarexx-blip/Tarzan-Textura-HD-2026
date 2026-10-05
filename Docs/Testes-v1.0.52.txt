@@ -1,0 +1,521 @@
+TARZAN v1.0.52 — TESTES AUTOMÁTICOS
+Win32/gráficos/BCrypt simulados; sem gameplay/FPS/GPU Windows real.
+
+test_image: PASS
+Optimized tables: legacy-equivalent 65536 colors x 2 formats x 5 calibrations; ordered smoothing preserves alpha, neutral colors, phase averages and pitch PASS
+Movie resampling: independent four-sample reference and padded input PASS
+16:9: equal-axis vertex scale, full 4:3 video fitting, black bars and uniform RGB555/565 colors PASS
+Gamma calibration: neutral identity across 65536 values in RGB555/565, black/white, grayscale monotonicity and pitch padding PASS
+
+test_input: PASS
+USB/XInput isolation: custom USB buttons/weapons, fixed Xbox A/chord, game key rebinding and deadzone preserved PASS
+Input tests passed: buttons, rebinding, axes, shared keys, focus, release, config checksum.
+
+test_video: PASS
+HD initial renderer: hardware kept/software switches to Glide, progress/keys preserved; corrupt save untouched PASS
+Video repair: recovery cleared, tiny GDI mode replaced, progress/keys preserved byte-for-byte, valid renderers kept, idempotent, corrupt saves untouched PASS
+
+test_graphics_plan: PASS
+Graphics plan: 84 combinations, compatibility MSAA off, clamping; diagnostic paths/state classification PASS
+
+test_hd_texture: PASS
+HD metadata: valid/absent/malformed/oversized; UV endpoints, one-pixel clamp, page overflow, atomic rejection, untextured sentinel and polygon fields preserved PASS
+
+test_cd: PASS
+Actual x86 integrity: original PASS
+Actual x86 integrity: fixed PASS
+Actual x86 integrity: corrupted PASS
+Actual x86 startup: audio available/unavailable, bad integrity, missing media, stale state PASS
+Actual x86 retry: failure stays / success advances PASS
+
+test_loading: PASS
+Actual x86 resolver: fixed LEGAL resolves correctly
+Actual x86 resolver/FSD lookup: 41 PC startup/loading/gameover/credits images PASS
+
+test_menu: PASS
+Native x86 TEX parser: correct palette pointers in 11 translated resources / 2032 tiles PASS
+Native x86 main menu: 4 selected options, TITLE base 0 and PCTITLE base 1 PASS
+Cursor masks: selected images only, no permanent Exit cursor PASS
+
+test_media: PASS
+ECM: all 36 block tables valid; first video frames decoded by native x86 PASS
+
+test_image_native: PASS
+Native PE loader: absent DLL, five exports, partial exports and original entry/stack PASS
+Built x86 color menu: navigation, live values, held-key suppression, reset, persistence and exit PASS
+Built x86 Direct3D pass: dark pixels lifted, padding preserved, movies excluded and lock failure falls back PASS
+Built x86 Glide pass: separate read/write locks, source preserved, movies excluded, write failure falls back PASS
+Built x86 triangle queue: undistorted 16:9, extra side geometry survives native clipping, selective filters, HUD/movie/software guards, caller input and stack preserved PASS
+Built x86 preferences: old factory defaults migrate, custom values preserved and widescreen applies at module startup PASS
+Built x86 movie flip: full 4:3 movie fitted inside 16:9 with side bars, exact uniform color/source preserved, original flip and 4:3 passthrough PASS
+Built x86 Direct3D movie fit: full-sized Lock surface matches Glide fitting exactly, original flip preserved PASS
+Neutral calibration: compiled x86 Glide/Direct3D bypass framebuffer locks while preserving native EndScene PASS
+Preferences: Unicode path round-trip, denied writes reported, retry succeeds; native menu width fits 640 PASS
+Native graphics menu: software low/high labels match native 320/640 mode setup; hardware-only effects explained PASS
+Compiled ordered smoothing: native menu/Enter, save/reload, RGB555 alpha, RGB565 phase reference, Glide source/movie guard, Direct3D padding and disable/rebuild PASS
+Compiled movie resampling: 230400 nonuniform RGB565 output pixels match independent four-weight reference; Glide/Direct3D identical with smoothing enabled PASS
+HD guard: Glide/Direct3D avoid readback, disabled rows skipped, movies fit, compatibility restored on reload PASS
+
+test_launcher_native: PASS
+Compiled x86 launcher: small viewport, bottom controls reachable, DPI 100/125/150/200%, thumb/top/bottom, resizing and native stack PASS
+
+test_video_plan_native: PASS
+Video configuration: 168 combinations, HD flag, Unicode paths, global colors, native 2D guards and denied-write failure PASS
+Diagnostic hash stream: empty/abc/multi-block, Unicode read-only path, digest hex, failures and resource cleanup PASS (BCrypt simulated)
+Compiled consolidated artwork: current/missing/corrupt; legacy copies removed only after validation; no package copying, saves untouched PASS
+
+test_package: PASS
+Package: 1120 bounded/unique FSD entries, 48 immutable SHA256 references; game/module/launcher/diagnostic x86 and no external MinGW runtime PASS
+
+test_hd_native: PASS
+v1.0.51 reference: only GO_APE/T_HOUSE resources changed; 1118 prior resource payloads unchanged; recorded current resource hashes verified PASS
+790 remastered textures: decoded digests, bounded dimensions and alpha masks PASS
+Packer rejects resizing ELEFALLS animated tile 82 before writing any files PASS
+MONKEY : 100 combined map/young/adult texture records; variant HD PASS
+MONKEY : 100 combined map/young/adult texture records; variant HD PASS
+MONKEY : 339968 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MONKEY : 100 combined map/young/adult texture records; variant HD PASS
+MONKEY : 339968 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MONKEY : 9014 native polygons, 88 texture records, 0 HD polygons rescaled PASS
+TARZYUNG : 20480 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+TARZYUNG : 20480 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+TARZYUNG : 1020 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+GO_APE : 118 combined map/young/adult texture records; variant HD PASS
+GO_APE : 118 combined map/young/adult texture records; variant HD PASS
+GO_APE : 360448 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+GO_APE : 118 combined map/young/adult texture records; variant HD PASS
+GO_APE : 360448 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+GO_APE : 13636 native polygons, 106 texture records, 0 HD polygons rescaled PASS
+TARZAN : 25600 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+TARZAN : 25600 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+TARZAN : 658 native polygons, 7 texture records, 0 HD polygons rescaled PASS
+ELEFALLS : 114 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 114 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 320512 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+ELEFALLS : 114 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 320512 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+ELEFALLS : 11855 native polygons, 102 texture records, 0 HD polygons rescaled PASS
+T_HOUSE : 139 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 139 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 403456 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+T_HOUSE : 139 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 403456 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+T_HOUSE : 13981 native polygons, 127 texture records, 0 HD polygons rescaled PASS
+SABORMAP : 128 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 128 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 270336 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+SABORMAP : 128 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 270336 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+SABORMAP : 12449 native polygons, 116 texture records, 0 HD polygons rescaled PASS
+CLAYMAP : 68 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 68 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 219136 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CLAYMAP : 68 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 219136 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CLAYMAP : 1409 native polygons, 56 texture records, 0 HD polygons rescaled PASS
+CAMPING : 159 combined map/young/adult texture records; variant HD PASS
+CAMPING : 159 combined map/young/adult texture records; variant HD PASS
+CAMPING : 235520 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CAMPING : 159 combined map/young/adult texture records; variant HD PASS
+CAMPING : 235520 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CAMPING : 12273 native polygons, 147 texture records, 0 HD polygons rescaled PASS
+BOAT : 99 combined map/young/adult texture records; variant HD PASS
+BOAT : 99 combined map/young/adult texture records; variant HD PASS
+BOAT : 200704 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BOAT : 99 combined map/young/adult texture records; variant HD PASS
+BOAT : 200704 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BOAT : 7725 native polygons, 87 texture records, 0 HD polygons rescaled PASS
+SABOR : 5120 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+SABOR : 5120 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+SABOR : 459 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+BABYELE : 5120 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BABYELE : 5120 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BABYELE : 243 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+HOG : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+HOG : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+HOG : 264 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+FROG : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+FROG : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+FROG : 180 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+MONKST : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MONKST : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MONKST : 204 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+CROC : 4352 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CROC : 4352 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CROC : 250 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+PANEL : 45056 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+PANEL : 45056 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+PANEL : 149 native polygons, 25 texture records, 0 HD polygons rescaled PASS
+RHINO : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+RHINO : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+RHINO : 218 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+HIPPO : 1280 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+HIPPO : 1280 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+HIPPO : 220 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+ELEPHANT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+ELEPHANT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+ELEPHANT : 303 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+BABOON : 512 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BABOON : 512 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BABOON : 186 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+PARROT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+PARROT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+PARROT : 338 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+TOUCAN : 2816 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+TOUCAN : 2816 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+TOUCAN : 542 native polygons, 7 texture records, 0 HD polygons rescaled PASS
+LEMUR : 256 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+LEMUR : 256 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+LEMUR : 384 native polygons, 9 texture records, 0 HD polygons rescaled PASS
+CHAMMY : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CHAMMY : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CHAMMY : 184 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+SNAKE : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+SNAKE : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+SNAKE : 278 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+ANTEATER : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+ANTEATER : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+ANTEATER : 163 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+BROWNBAT : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BROWNBAT : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BROWNBAT : 74 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+MONITOR : 256 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MONITOR : 256 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MONITOR : 205 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+HD integration: 88864 native polygons checked, 0 rescaled; native resource parsing, all VRAM allocations, colors/flags and unchanged local UV preserved PASS
+
+test_hd_scene_stress: PASS
+v1.0.51 reference: only GO_APE/T_HOUSE resources changed; 1118 prior resource payloads unchanged; recorded current resource hashes verified PASS
+790 remastered textures: decoded digests, bounded dimensions and alpha masks PASS
+Packer rejects resizing ELEFALLS animated tile 82 before writing any files PASS
+MONKEY : 284 combined map/young/adult texture records; variant HD PASS
+MONKEY : 284 combined map/young/adult texture records; variant HD PASS
+MONKEY : 339968 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MONKEY : 284 combined map/young/adult texture records; variant HD PASS
+MONKEY : 339968 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MONKEY : 9014 native polygons, 88 texture records, 0 HD polygons rescaled PASS
+TARZYUNG : 20480 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+TARZYUNG : 20480 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+TARZYUNG : 1020 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+GO_APE : 302 combined map/young/adult texture records; variant HD PASS
+GO_APE : 302 combined map/young/adult texture records; variant HD PASS
+GO_APE : 360448 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+GO_APE : 302 combined map/young/adult texture records; variant HD PASS
+GO_APE : 360448 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+GO_APE : 13636 native polygons, 106 texture records, 0 HD polygons rescaled PASS
+TARZAN : 25600 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+TARZAN : 25600 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+TARZAN : 658 native polygons, 7 texture records, 0 HD polygons rescaled PASS
+ELEFALLS : 298 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 298 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 320512 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+ELEFALLS : 298 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 320512 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+ELEFALLS : 11855 native polygons, 102 texture records, 0 HD polygons rescaled PASS
+T_HOUSE : 323 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 323 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 403456 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+T_HOUSE : 323 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 403456 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+T_HOUSE : 13981 native polygons, 127 texture records, 0 HD polygons rescaled PASS
+SABORMAP : 312 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 312 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 270336 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+SABORMAP : 312 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 270336 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+SABORMAP : 12449 native polygons, 116 texture records, 0 HD polygons rescaled PASS
+CLAYMAP : 252 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 252 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 219136 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CLAYMAP : 252 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 219136 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CLAYMAP : 1409 native polygons, 56 texture records, 0 HD polygons rescaled PASS
+CAMPING : 343 combined map/young/adult texture records; variant HD PASS
+CAMPING : 343 combined map/young/adult texture records; variant HD PASS
+CAMPING : 235520 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CAMPING : 343 combined map/young/adult texture records; variant HD PASS
+CAMPING : 235520 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CAMPING : 12273 native polygons, 147 texture records, 0 HD polygons rescaled PASS
+BOAT : 283 combined map/young/adult texture records; variant HD PASS
+BOAT : 283 combined map/young/adult texture records; variant HD PASS
+BOAT : 200704 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BOAT : 283 combined map/young/adult texture records; variant HD PASS
+BOAT : 200704 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BOAT : 7725 native polygons, 87 texture records, 0 HD polygons rescaled PASS
+SABOR : 5120 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+SABOR : 5120 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+SABOR : 459 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+BABYELE : 5120 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BABYELE : 5120 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BABYELE : 243 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+HOG : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+HOG : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+HOG : 264 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+FROG : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+FROG : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+FROG : 180 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+MONKST : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MONKST : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MONKST : 204 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+CROC : 4352 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CROC : 4352 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CROC : 250 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+PANEL : 45056 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+PANEL : 45056 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+PANEL : 149 native polygons, 25 texture records, 0 HD polygons rescaled PASS
+RHINO : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+RHINO : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+RHINO : 218 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+HIPPO : 1280 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+HIPPO : 1280 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+HIPPO : 220 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+ELEPHANT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+ELEPHANT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+ELEPHANT : 303 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+BABOON : 512 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BABOON : 512 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BABOON : 186 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+PARROT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+PARROT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+PARROT : 338 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+TOUCAN : 2816 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+TOUCAN : 2816 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+TOUCAN : 542 native polygons, 7 texture records, 0 HD polygons rescaled PASS
+LEMUR : 256 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+LEMUR : 256 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+LEMUR : 384 native polygons, 9 texture records, 0 HD polygons rescaled PASS
+CHAMMY : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CHAMMY : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CHAMMY : 184 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+SNAKE : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+SNAKE : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+SNAKE : 278 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+ANTEATER : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+ANTEATER : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+ANTEATER : 163 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+BROWNBAT : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BROWNBAT : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BROWNBAT : 74 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+MONITOR : 256 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MONITOR : 256 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MONITOR : 205 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+GENERIX : 16384 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+GENERIX : 16384 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+GENERIX : 1993 native polygons, 69 texture records, 0 HD polygons rescaled PASS
+BADFISH : 512 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BADFISH : 512 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BADFISH : 61 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+CIVCUB : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CIVCUB : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CIVCUB : 243 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+CIVIT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CIVIT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CIVIT : 248 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+CO_MONKY : 256 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CO_MONKY : 256 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CO_MONKY : 204 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+CROCLAND : 1280 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CROCLAND : 1280 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CROCLAND : 250 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+CROK : 1280 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CROK : 1280 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CROK : 250 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+EAGLE : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+EAGLE : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+EAGLE : 196 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+FIFI : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+FIFI : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+FIFI : 424 native polygons, 6 texture records, 0 HD polygons rescaled PASS
+FIFITA : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+FIFITA : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+FIFITA : 494 native polygons, 7 texture records, 0 HD polygons rescaled PASS
+FIGAN : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+FIGAN : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+FIGAN : 220 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+FIGANTA : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+FIGANTA : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+FIGANTA : 522 native polygons, 6 texture records, 0 HD polygons rescaled PASS
+FISH : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+FISH : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+FISH : 64 native polygons, 7 texture records, 0 HD polygons rescaled PASS
+FLYNT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+FLYNT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+FLYNT : 456 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+FLYNTTA : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+FLYNTTA : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+FLYNTTA : 216 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+FRUITBAT : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+FRUITBAT : 4096 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+FRUITBAT : 158 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+HUMBIRD : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+HUMBIRD : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+HUMBIRD : 92 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+KALA : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+KALA : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+KALA : 238 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+KERCHAK : 3072 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+KERCHAK : 3072 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+KERCHAK : 232 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+LIZARD : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+LIZARD : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+LIZARD : 150 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+MACAW : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MACAW : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MACAW : 324 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+MB_BAB : 512 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MB_BAB : 512 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MB_BAB : 186 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+MUNGO : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MUNGO : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MUNGO : 422 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+MUNGOTA : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MUNGOTA : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MUNGOTA : 490 native polygons, 7 texture records, 0 HD polygons rescaled PASS
+PANGOLIN : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+PANGOLIN : 1024 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+PANGOLIN : 158 native polygons, 2 texture records, 0 HD polygons rescaled PASS
+RHINOBAB : 768 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+RHINOBAB : 768 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+RHINOBAB : 232 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+RHINOCO : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+RHINOCO : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+RHINOCO : 218 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+RHINOTA : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+RHINOTA : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+RHINOTA : 218 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+RHNPAT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+RHNPAT : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+RHNPAT : 218 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+SEAGULL : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+SEAGULL : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+SEAGULL : 204 native polygons, 3 texture records, 0 HD polygons rescaled PASS
+TANTOR : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+TANTOR : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+TANTOR : 289 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+TANTORTR : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+TANTORTR : 2048 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+TANTORTR : 289 native polygons, 5 texture records, 0 HD polygons rescaled PASS
+TERK : 3072 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+TERK : 3072 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+TERK : 464 native polygons, 4 texture records, 0 HD polygons rescaled PASS
+HD integration: 99287 native polygons checked, 0 rescaled; native resource parsing, all VRAM allocations, colors/flags and unchanged local UV preserved PASS
+MONKEY : 280 combined map/young/adult texture records; variant HD PASS
+MONKEY : 339968 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MONKEY : 272 combined map/young/adult texture records; variant HD PASS
+MONKEY : 339968 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MONKEY : 246 combined map/young/adult texture records; variant HD PASS
+MONKEY : 339968 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+MONKEY : 280 combined map/young/adult texture records; variant HD PASS
+MONKEY : 339968 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MONKEY : 272 combined map/young/adult texture records; variant HD PASS
+MONKEY : 339968 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+MONKEY : 246 combined map/young/adult texture records; variant HD PASS
+MONKEY : 339968 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+GO_APE : 298 combined map/young/adult texture records; variant HD PASS
+GO_APE : 360448 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+GO_APE : 290 combined map/young/adult texture records; variant HD PASS
+GO_APE : 360448 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+GO_APE : 264 combined map/young/adult texture records; variant HD PASS
+GO_APE : 360448 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+GO_APE : 298 combined map/young/adult texture records; variant HD PASS
+GO_APE : 360448 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+GO_APE : 290 combined map/young/adult texture records; variant HD PASS
+GO_APE : 360448 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+GO_APE : 264 combined map/young/adult texture records; variant HD PASS
+GO_APE : 360448 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+ELEFALLS : 294 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 320512 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+ELEFALLS : 286 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 320512 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+ELEFALLS : 260 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 320512 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+ELEFALLS : 294 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 320512 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+ELEFALLS : 286 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 320512 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+ELEFALLS : 260 combined map/young/adult texture records; variant HD PASS
+ELEFALLS : 24 native animation frames allocated; animated tiles kept original PASS
+ELEFALLS : 320512 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+T_HOUSE : 319 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 403456 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+T_HOUSE : 311 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 403456 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+T_HOUSE : 285 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 403456 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+T_HOUSE : 319 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 403456 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+T_HOUSE : 311 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 403456 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+T_HOUSE : 285 combined map/young/adult texture records; variant HD PASS
+T_HOUSE : 403456 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+SABORMAP : 308 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 270336 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+SABORMAP : 300 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 270336 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+SABORMAP : 274 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 270336 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+SABORMAP : 308 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 270336 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+SABORMAP : 300 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 270336 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+SABORMAP : 274 combined map/young/adult texture records; variant HD PASS
+SABORMAP : 270336 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CLAYMAP : 248 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 219136 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CLAYMAP : 240 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 219136 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CLAYMAP : 214 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 219136 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CLAYMAP : 248 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 219136 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CLAYMAP : 240 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 219136 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CLAYMAP : 214 combined map/young/adult texture records; variant HD PASS
+CLAYMAP : 219136 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CAMPING : 339 combined map/young/adult texture records; variant HD PASS
+CAMPING : 235520 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CAMPING : 331 combined map/young/adult texture records; variant HD PASS
+CAMPING : 235520 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CAMPING : 305 combined map/young/adult texture records; variant HD PASS
+CAMPING : 235520 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+CAMPING : 339 combined map/young/adult texture records; variant HD PASS
+CAMPING : 235520 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CAMPING : 331 combined map/young/adult texture records; variant HD PASS
+CAMPING : 235520 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+CAMPING : 305 combined map/young/adult texture records; variant HD PASS
+CAMPING : 235520 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BOAT : 279 combined map/young/adult texture records; variant HD PASS
+BOAT : 200704 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BOAT : 271 combined map/young/adult texture records; variant HD PASS
+BOAT : 200704 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BOAT : 245 combined map/young/adult texture records; variant HD PASS
+BOAT : 200704 HD pixels converted and uploaded to CPU VRAM exactly; RGB555 PASS
+BOAT : 279 combined map/young/adult texture records; variant HD PASS
+BOAT : 200704 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BOAT : 271 combined map/young/adult texture records; variant HD PASS
+BOAT : 200704 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+BOAT : 245 combined map/young/adult texture records; variant HD PASS
+BOAT : 200704 HD pixels converted and uploaded to CPU VRAM exactly; RGB565 PASS
+Expanded animal cohorts: eight scenes with original and new models, RGB555/565 allocation and uploads PASS
+
+test_art_v52: PASS
+Menu compaction: previous menu compaction retained; every Portuguese label and selection cursor preserved pixel-for-pixel PASS
+HUD, fruit, coin/items: native textures and GENERIX geometry unchanged byte-for-byte PASS
+GO_APE : native tile dimensions, masks, unselected artwork, all group layouts and geometry preserved PASS
+T_HOUSE : native tile dimensions, masks, unselected artwork, all group layouts and geometry preserved PASS
+Artwork continuity: all 750 prior remasters preserved pixel-for-pixel PASS
+Native UI/menu atlas: all 252 textures allocated together and final pixels preserved; RGB555 PASS
+Native UI/menu atlas: all 252 textures allocated together and final pixels preserved; RGB565 PASS
+
+16/16 grupos passaram.

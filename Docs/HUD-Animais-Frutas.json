@@ -1,0 +1,1455 @@
+{
+  "assets": [
+    "SABOR",
+    "BABYELE",
+    "CROC",
+    "RHINO",
+    "HIPPO",
+    "ELEPHANT",
+    "BABOON",
+    "PARROT",
+    "TOUCAN",
+    "HOG",
+    "FROG",
+    "MONKST",
+    "LEMUR",
+    "CHAMMY",
+    "SNAKE",
+    "ANTEATER",
+    "BROWNBAT",
+    "MONITOR",
+    "CO_MONKY",
+    "BADFISH",
+    "EAGLE",
+    "FISH",
+    "FRUITBAT",
+    "HUMBIRD",
+    "LIZARD",
+    "MACAW",
+    "PANGOLIN",
+    "SEAGULL",
+    "TAPIR",
+    "RHINOBAB",
+    "RHINOCO",
+    "RHINOTA",
+    "RHNPAT",
+    "CROCLAND",
+    "CROK",
+    "CIVIT",
+    "CIVCUB",
+    "KALA",
+    "KERCHAK",
+    "TERK",
+    "TANTOR",
+    "TANTORTR",
+    "MB_BAB",
+    "FIFI",
+    "FIFITA",
+    "FIGAN",
+    "FIGANTA",
+    "FLYNT",
+    "FLYNTTA",
+    "MUNGO",
+    "MUNGOTA"
+  ],
+  "generate": [
+    {
+      "asset": "ANTEATER",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\ANTEATER.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "BADFISH",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\BADFISH.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "BADFISH",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\BADFISH.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "EAGLE",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\EAGLE.TEX",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "asset": "FISH",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FISH.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "FRUITBAT",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FRUITBAT.TEX",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "asset": "HUMBIRD",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\HUMBIRD.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "HUMBIRD",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\HUMBIRD.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "LIZARD",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\LIZARD.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "PANGOLIN",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\PANGOLIN.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "RHINOBAB",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINOBAB.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "RHINOBAB",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINOBAB.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "RHINOBAB",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINOBAB.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "CIVIT",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CIVIT.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "CIVIT",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CIVIT.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "KALA",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\KALA.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "KALA",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\KALA.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "KERCHAK",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\KERCHAK.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "KERCHAK",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\KERCHAK.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "KERCHAK",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\KERCHAK.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "TERK",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TERK.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "TERK",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TERK.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "TERK",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TERK.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "FIFI",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FIFI.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "FIGAN",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FIGAN.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "FIGAN",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FIGAN.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "FLYNT",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FLYNT.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "MUNGO",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MUNGO.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "MUNGO",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MUNGO.TEX",
+      "size": [
+        32,
+        32
+      ]
+    }
+  ],
+  "reuse": [
+    {
+      "asset": "CO_MONKY",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CO_MONKY.TEX",
+      "size": [
+        16,
+        16
+      ],
+      "copy_from": [
+        "MONKST",
+        0
+      ]
+    },
+    {
+      "asset": "MACAW",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MACAW.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "PARROT",
+        0
+      ]
+    },
+    {
+      "asset": "MACAW",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MACAW.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "PARROT",
+        1
+      ]
+    },
+    {
+      "asset": "SEAGULL",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\SEAGULL.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "PARROT",
+        0
+      ]
+    },
+    {
+      "asset": "SEAGULL",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\SEAGULL.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "PARROT",
+        1
+      ]
+    },
+    {
+      "asset": "RHINOCO",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINOCO.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "RHINO",
+        0
+      ]
+    },
+    {
+      "asset": "RHINOCO",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINOCO.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "RHINO",
+        1
+      ]
+    },
+    {
+      "asset": "RHINOTA",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINOTA.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "RHINO",
+        0
+      ]
+    },
+    {
+      "asset": "RHINOTA",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINOTA.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "RHINO",
+        1
+      ]
+    },
+    {
+      "asset": "RHNPAT",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHNPAT.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "RHINO",
+        0
+      ]
+    },
+    {
+      "asset": "RHNPAT",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHNPAT.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "RHINO",
+        1
+      ]
+    },
+    {
+      "asset": "CROCLAND",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROCLAND.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "CROC",
+        0
+      ]
+    },
+    {
+      "asset": "CROCLAND",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROCLAND.TEX",
+      "size": [
+        16,
+        16
+      ],
+      "copy_from": [
+        "CROC",
+        3
+      ]
+    },
+    {
+      "asset": "CROK",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROK.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "CROC",
+        0
+      ]
+    },
+    {
+      "asset": "CROK",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROK.TEX",
+      "size": [
+        16,
+        16
+      ],
+      "copy_from": [
+        "CROC",
+        3
+      ]
+    },
+    {
+      "asset": "TANTOR",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TANTOR.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "BABYELE",
+        2
+      ]
+    },
+    {
+      "asset": "TANTOR",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TANTOR.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "ELEPHANT",
+        3
+      ]
+    },
+    {
+      "asset": "TANTORTR",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TANTORTR.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "BABYELE",
+        2
+      ]
+    },
+    {
+      "asset": "TANTORTR",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TANTORTR.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "ELEPHANT",
+        3
+      ]
+    },
+    {
+      "asset": "MB_BAB",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MB_BAB.TEX",
+      "size": [
+        16,
+        16
+      ],
+      "copy_from": [
+        "BABOON",
+        0
+      ]
+    },
+    {
+      "asset": "MB_BAB",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MB_BAB.TEX",
+      "size": [
+        16,
+        16
+      ],
+      "copy_from": [
+        "BABOON",
+        1
+      ]
+    },
+    {
+      "asset": "CIVCUB",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CIVCUB.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "CIVIT",
+        0
+      ]
+    },
+    {
+      "asset": "CIVCUB",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CIVCUB.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "CIVIT",
+        1
+      ]
+    },
+    {
+      "asset": "FIFITA",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FIFITA.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "FIFI",
+        0
+      ]
+    },
+    {
+      "asset": "FIGANTA",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FIGANTA.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "FIGAN",
+        0
+      ]
+    },
+    {
+      "asset": "FIGANTA",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FIGANTA.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "FIGAN",
+        1
+      ]
+    },
+    {
+      "asset": "FLYNT",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FLYNT.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "FIGAN",
+        1
+      ]
+    },
+    {
+      "asset": "FLYNTTA",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FLYNTTA.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "FLYNT",
+        0
+      ]
+    },
+    {
+      "asset": "FLYNTTA",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FLYNTTA.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "FIGAN",
+        1
+      ]
+    },
+    {
+      "asset": "MUNGOTA",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MUNGOTA.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "MUNGO",
+        0
+      ]
+    },
+    {
+      "asset": "MUNGOTA",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MUNGOTA.TEX",
+      "size": [
+        32,
+        32
+      ],
+      "copy_from": [
+        "MUNGO",
+        2
+      ]
+    }
+  ],
+  "swatches": [
+    {
+      "asset": "SABOR",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\SABOR.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "BABYELE",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\BABYELE.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "BABYELE",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\BABYELE.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "CROC",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROC.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "CROC",
+      "tile": 4,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROC.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "RHINO",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINO.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "HIPPO",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\HIPPO.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "ELEPHANT",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\ELEPHANT.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "ELEPHANT",
+      "tile": 4,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\ELEPHANT.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "BABOON",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\BABOON.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "PARROT",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\PARROT.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "TOUCAN",
+      "tile": 6,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TOUCAN.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "HOG",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\HOG.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "FROG",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FROG.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "MONKST",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MONKST.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "LEMUR",
+      "tile": 8,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\LEMUR.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "CHAMMY",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CHAMMY.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "SNAKE",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\SNAKE.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "ANTEATER",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\ANTEATER.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "BROWNBAT",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\BROWNBAT.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "MONITOR",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MONITOR.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "CO_MONKY",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CO_MONKY.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "BADFISH",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\BADFISH.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "EAGLE",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\EAGLE.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "FISH",
+      "tile": 6,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FISH.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "FRUITBAT",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FRUITBAT.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "HUMBIRD",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\HUMBIRD.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "LIZARD",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\LIZARD.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "MACAW",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MACAW.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "PANGOLIN",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\PANGOLIN.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "SEAGULL",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\SEAGULL.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "TAPIR",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TAPIR.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "RHINOBAB",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINOBAB.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "RHINOCO",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINOCO.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "RHINOTA",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHINOTA.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "RHNPAT",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\RHNPAT.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "CROCLAND",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROCLAND.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "CROCLAND",
+      "tile": 4,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROCLAND.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "CROK",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROK.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "CROK",
+      "tile": 4,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROK.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "CIVIT",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CIVIT.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "CIVCUB",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CIVCUB.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "KALA",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\KALA.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "KERCHAK",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\KERCHAK.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "TERK",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TERK.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "TANTOR",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TANTOR.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "TANTOR",
+      "tile": 4,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TANTOR.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "TANTORTR",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TANTORTR.TEX",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "asset": "TANTORTR",
+      "tile": 4,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TANTORTR.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "MB_BAB",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MB_BAB.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "CROC",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROC.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "HIPPO",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\HIPPO.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "ELEPHANT",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\ELEPHANT.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "TOUCAN",
+      "tile": 5,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TOUCAN.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "MONKST",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MONKST.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "LEMUR",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\LEMUR.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "LEMUR",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\LEMUR.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "LEMUR",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\LEMUR.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "LEMUR",
+      "tile": 4,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\LEMUR.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "LEMUR",
+      "tile": 5,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\LEMUR.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "LEMUR",
+      "tile": 6,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\LEMUR.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "LEMUR",
+      "tile": 7,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\LEMUR.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "CHAMMY",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CHAMMY.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "CHAMMY",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CHAMMY.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "MONITOR",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MONITOR.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "MONITOR",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\MONITOR.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "CO_MONKY",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CO_MONKY.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "EAGLE",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\EAGLE.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "FISH",
+      "tile": 1,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FISH.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "FISH",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FISH.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "FISH",
+      "tile": 3,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FISH.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "FISH",
+      "tile": 4,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FISH.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "FISH",
+      "tile": 5,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\FISH.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "CROCLAND",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROCLAND.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "CROK",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\CROK.TEX",
+      "size": [
+        8,
+        8
+      ]
+    },
+    {
+      "asset": "KALA",
+      "tile": 2,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\KALA.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "TANTOR",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TANTOR.TEX",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "asset": "TANTORTR",
+      "tile": 0,
+      "name": "T:\\GRAFIX\\MODELS\\_pc_bin\\TANTORTR.TEX",
+      "size": [
+        16,
+        16
+      ]
+    }
+  ],
+  "fruit_tiles": [
+    42,
+    50,
+    51,
+    52
+  ],
+  "hud_auxiliary": [
+    0,
+    23
+  ],
+  "version": "1.0.47",
+  "hud": {
+    "visual_tiles": 23,
+    "auxiliary_colors": 2,
+    "status": "visual artwork complete, native auxiliary colors retained"
+  },
+  "fruit": {
+    "updated_tiles": [
+      42,
+      50,
+      51,
+      52
+    ],
+    "other_generix_tiles_unchanged": 65
+  },
+  "new_animal_tiles": 60,
+  "new_fruit_tiles": 4,
+  "scope_note": "Animal body/face/wing surfaces; native color lookup blocks and non-body cutscene props preserved. Ambient BTRFLY sprite sequence unchanged."
+}

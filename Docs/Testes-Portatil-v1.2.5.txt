@@ -1,0 +1,14 @@
+TARZAN PORTÁTIL v1.2.5 — TELA AUXILIAR OPTIONS
+
+PASS — recurso interno OPTIONS.TEX mantido com o nome inglês original
+PASS — 262 de 262 blocos remasterizados
+PASS — pequenos recortes nativos de letras e acentos suportados
+PASS — sete grupos e estados de seleção preservados
+PASS — dimensões, transparência e referências originais preservadas
+PASS — textos PT-BR exatos preservados
+PASS — payload antigo removido do FSD reconstruído
+PASS — FSD mantém 1120 entradas válidas e delimitadas
+PASS — total auditado atualizado de 1510 para 1772 blocos
+PASS — somente um arquivo FSD de jogo incluído no pacote
+
+PENDENTE — validação visual da tela OPTIONS em Windows 10/11 real

@@ -1,0 +1,19 @@
+TARZAN PORTÁTIL PT-BR v1.2.0 — CORREÇÃO 16:9
+
+ALTERAÇÕES
+- Projeção 16:9 convertida para Hor+: apenas o eixo horizontal é compensado.
+- Campo de visão vertical permanece idêntico ao modo 4:3.
+- A área lateral visível aumenta em 33%, sem deformar a geometria.
+- HUD, fontes, menus, personagens e animais mantêm a proporção correta.
+- Cinemáticas 4:3 usam a altura inteira e barras laterais (pillarbox).
+- O caminho 4:3 continua inalterado.
+
+MÚSICA
+A imagem ISO analisada é uma única faixa de dados ISO 9660. Faixas CD-Áudio não
+fazem parte do sistema de arquivos de uma ISO comum; por isso não há WAV/MP3 para
+extrair dela. A edição portátil já aceita trackXX.wav ou trackXX.mp3 em Music.
+Para recuperar as músicas originais é necessário fornecer o CD físico ou BIN+CUE.
+
+LIMITAÇÃO DE VALIDAÇÃO
+O módulo foi compilado como Win32/x86 e validado por testes matemáticos e emulação.
+O teste final de imagem, fullscreen e reprodução deve ser feito em Windows 10/11.

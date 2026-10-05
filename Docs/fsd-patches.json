@@ -1,0 +1,90 @@
+[
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\CONTROL.TEX",
+    "index": 996,
+    "original_offset": 18496576,
+    "original_size": 42728,
+    "new_offset": 44788990,
+    "new_size": 102260
+  },
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\DIFF.TEX",
+    "index": 0,
+    "original_offset": 18690654,
+    "original_size": 19668,
+    "new_offset": 24576,
+    "new_size": 53604
+  },
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\LEVNAMES.TEX",
+    "index": 675,
+    "original_offset": 22551865,
+    "original_size": 40536,
+    "new_offset": 33007134,
+    "new_size": 94656
+  },
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\LOAD.TEX",
+    "index": 1119,
+    "original_offset": 22592485,
+    "original_size": 79656,
+    "new_offset": 52601954,
+    "new_size": 183552
+  },
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\MUSIC.TEX",
+    "index": 1011,
+    "original_offset": 22908333,
+    "original_size": 15924,
+    "new_offset": 46536464,
+    "new_size": 47748
+  },
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\OPTIONS.TEX",
+    "index": 992,
+    "original_offset": 23412299,
+    "original_size": 37120,
+    "new_offset": 44091082,
+    "new_size": 95980
+  },
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\PCTITLE.TEX",
+    "index": 990,
+    "original_offset": 23614759,
+    "original_size": 30608,
+    "new_offset": 44028482,
+    "new_size": 62516
+  },
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\REPLAY.TEX",
+    "index": 1,
+    "original_offset": 23645451,
+    "original_size": 168200,
+    "new_offset": 78180,
+    "new_size": 176684
+  },
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\SFX.TEX",
+    "index": 834,
+    "original_offset": 23813735,
+    "original_size": 6412,
+    "new_offset": 38823096,
+    "new_size": 15988
+  },
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\TALLY.TEX",
+    "index": 1014,
+    "original_offset": 23820231,
+    "original_size": 337212,
+    "new_offset": 46584380,
+    "new_size": 372876
+  },
+  {
+    "asset": "T:\\LANGUAGE\\English\\_pc_bin\\TITLE.TEX",
+    "index": 1015,
+    "original_offset": 25073744,
+    "original_size": 17796,
+    "new_offset": 46957256,
+    "new_size": 34200
+  }
+]

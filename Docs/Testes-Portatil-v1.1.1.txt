@@ -1,0 +1,18 @@
+TARZAN PORTÁTIL v1.1.1 — TESTES AUTOMÁTICOS
+Win32, MCI, DirectDraw/Direct3D e GPU reais não executados.
+
+16/16 grupos aplicáveis passaram.
+
+PASS — resolvedor x86 usa DATA local e inicia sem unidade de CD.
+PASS — 36 ECM válidos e primeiro quadro decodificado pelo x86 nativo.
+PASS — carregamento, menus PT-BR, controles, saves e configuração de vídeo.
+PASS — 168 combinações de resolução, MSAA, fullscreen, filtros e cores.
+PASS — 1158 texturas, alpha, hashes, UI e carga de cenas preservados.
+PASS — winmm.dll x86 exporta todas as 16 funções importadas por tarzan.exe.
+PASS — proxy não importa WINMM recursivamente; encaminha chamadas ao DLL do sistema.
+PASS — MCI local cobre abrir, tocar, pausar, parar, estado, duração e número de faixas.
+PASS — ponte de volume AUX/CD expõe o dispositivo “Tarzan Local Music”.
+PASS — pacote com 1120 entradas FSD únicas e referências SHA256 imutáveis.
+
+Limite: a ISO não contém as faixas musicais. Reprodução WAV/MP3 e gameplay completo
+precisam de teste no Windows com faixas extraídas do CD original do usuário.

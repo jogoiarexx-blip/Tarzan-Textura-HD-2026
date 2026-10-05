@@ -1,0 +1,603 @@
+{
+  "version": "1.5.1",
+  "edition": "portable-ptbr-stable-modern-graphics-full",
+  "base_texture_release": "1.0.83",
+  "textures_remastered": 2199,
+  "functional_tiles_preserved": 4,
+  "auxiliary_screen_resources_remastered": 10,
+  "auxiliary_screen_resources_remaining": 9,
+  "media_files_local": 36,
+  "requires_iso_or_cd_for_gameplay": false,
+  "local_music_backend": true,
+  "music_tracks_included": false,
+  "widescreen_mode": "16:9-hor-plus",
+  "widescreen_vertical_fov_preserved": true,
+  "cinematics": "4:3-full-height-pillarbox",
+  "duplicate_texture_payloads": false,
+  "windows_real_gameplay_validated": false,
+  "files": [
+    {
+      "path": "DATA/BLANK.ECM",
+      "size": 37356,
+      "sha256": "82380d93a2a295a7369a99dba5d1e2285570191aa0a5825510f6b4504d74633e"
+    },
+    {
+      "path": "DATA/CLIP01.ECM",
+      "size": 14383524,
+      "sha256": "e22857bb9bb4aa5999a4faf75501da1bbb23658c9041dde2da3dd4fc98138ecb"
+    },
+    {
+      "path": "DATA/CLIP02.ECM",
+      "size": 5306620,
+      "sha256": "057783bbda206d12e9cdb4e68e04e90bce8f73b29e88a624adfa5f2cc65ffdd2"
+    },
+    {
+      "path": "DATA/CLIP03.ECM",
+      "size": 12754420,
+      "sha256": "f71cfba49c7c570e40e6404a93a03e05278dd7c3029670b1a97c15eec784196c"
+    },
+    {
+      "path": "DATA/CLIP04.ECM",
+      "size": 11424356,
+      "sha256": "dd972d22ca7875bc47607d6237e196c022eb65292e7a80531fa6dcbfe2a9ca84"
+    },
+    {
+      "path": "DATA/CLIP05.ECM",
+      "size": 24370816,
+      "sha256": "81e3df482d836c32681071ade5feed8b611acfea5266c3a00154af3dee9dec27"
+    },
+    {
+      "path": "DATA/CLIP06A.ECM",
+      "size": 11020652,
+      "sha256": "47738d0b4d4f2b7556d27442734c8d789a1980b54e02399d7c18ef2093838ec9"
+    },
+    {
+      "path": "DATA/CLIP06B.ECM",
+      "size": 11151688,
+      "sha256": "dfdfac3869e55d3955adc36770c21e2f8afd2f3517367137007bc7b24319ba19"
+    },
+    {
+      "path": "DATA/CLIP07.ECM",
+      "size": 10395232,
+      "sha256": "7188c4caddf999704577245fa35ba974270382ec2b1a671fbb7909249ed14496"
+    },
+    {
+      "path": "DATA/CLIP08.ECM",
+      "size": 9268660,
+      "sha256": "4b4dc5a9b2fde5da6b1ed2ceb401e744080d5279b34dd71f0ff14a5a72b34d3e"
+    },
+    {
+      "path": "DATA/CLIP09.ECM",
+      "size": 6373436,
+      "sha256": "5b88b0ba23795d5e325c9d4b5591099b827dfec093e24ad413cb2e0b2c7bdb69"
+    },
+    {
+      "path": "DATA/CLIP10.ECM",
+      "size": 6997740,
+      "sha256": "dcd2e8bdedacd8348f3642038bea5c5ec95c7402372138dc6a0b6ff8ffd9767b"
+    },
+    {
+      "path": "DATA/CLIP11.ECM",
+      "size": 6959436,
+      "sha256": "36eef7269c63dfc54405b5dd9dc9173efbeb2fabb447578f7049fd121e54529c"
+    },
+    {
+      "path": "DATA/CLIP12.ECM",
+      "size": 6742872,
+      "sha256": "197f9af76076756ae0adf59df0ddf46918a33aea04c41a431c435c39d2d400c5"
+    },
+    {
+      "path": "DATA/CLIP13.ECM",
+      "size": 4657896,
+      "sha256": "94e4e0f1cbb518bd87d9278b903393e992ea2bd3c11b7b67c6d12903efe2b3ab"
+    },
+    {
+      "path": "DATA/CLIP13C.ECM",
+      "size": 14728340,
+      "sha256": "2177fcbc1ad389c64aad92ea3f9338cd74eb8a2a05142cea7d6878f4a68a02ca"
+    },
+    {
+      "path": "DATA/CLIP13D.ECM",
+      "size": 6672632,
+      "sha256": "f6c8d2b53934aac4c10cb363f80d080f24b061dd7f3d990523628a2b8b08fb75"
+    },
+    {
+      "path": "DATA/CLIP13E1.ECM",
+      "size": 9302176,
+      "sha256": "c04e434e3952987f82c910387558f54b9099f61ecb13a357d9054fe4521f06dc"
+    },
+    {
+      "path": "DATA/CLIPINTO.ECM",
+      "size": 22349704,
+      "sha256": "4a118da41799d557a995d0590d2a268a96093910b195b26ff47369cb408d41c4"
+    },
+    {
+      "path": "DATA/DISNEY.ECM",
+      "size": 2117780,
+      "sha256": "c762f403e8bacf9c20933ec672a5fd93847f61102bb44a1dd6c630f7e57dcd5f"
+    },
+    {
+      "path": "DATA/EUROCOM.ECM",
+      "size": 1344072,
+      "sha256": "97302ec111abcb9c153061af2dc3e2201d84b238d431a066f8372e2e6a8f0e8e"
+    },
+    {
+      "path": "DATA/GO_JAN03.ECM",
+      "size": 398784,
+      "sha256": "d5c86fee68494f494ac0fcf083045dfcf4aa30e0adfee42e3a6ff19317acb35f"
+    },
+    {
+      "path": "DATA/GO_JAN04.ECM",
+      "size": 583796,
+      "sha256": "d47304e02bfe8d934959024ecaee1ee1247722ad3d9a18384175f4dbf7685747"
+    },
+    {
+      "path": "DATA/GO_TKY03.ECM",
+      "size": 651452,
+      "sha256": "cbb54b3d5f23d55fb6272ddab58d9a909f8cc5999b06034ba367c8c950fde628"
+    },
+    {
+      "path": "DATA/GO_TZA02.ECM",
+      "size": 462392,
+      "sha256": "84c24fd3722d4dfe0638d000a32e56aedb47e963d3a6192e2befa8543233f9b0"
+    },
+    {
+      "path": "DATA/GO_TZA03.ECM",
+      "size": 370672,
+      "sha256": "eff6a52f73cf05e4dbbe73aa5fde1b2a2ea60bdbcb52adb1b4a2f184ed79c1a6"
+    },
+    {
+      "path": "DATA/GO_TZA06.ECM",
+      "size": 420396,
+      "sha256": "bf486f08602b9471ab25d567f257499e58e36f71bf76e7fe88057f7e609c9563"
+    },
+    {
+      "path": "DATA/GO_TZA07.ECM",
+      "size": 464292,
+      "sha256": "07b65c34e95f364aeb913359659643af32fdbb7f558b81d6829e22c4c7be02c3"
+    },
+    {
+      "path": "DATA/GO_TZA09.ECM",
+      "size": 707240,
+      "sha256": "4383b2a524bf67c1a2649475cdb236ba703bdf3c3a7327c905180a7135c7b8b7"
+    },
+    {
+      "path": "DATA/GO_TZA10.ECM",
+      "size": 423188,
+      "sha256": "af49cbe7a3a7b8d2d98d5db3ac9bfb81c699e62e43bee1e77dc9659ad6ef43b8"
+    },
+    {
+      "path": "DATA/GO_TZA11.ECM",
+      "size": 556484,
+      "sha256": "a1cba36b04c26d2b9036288d1b21d329a5922350b882dc0dfb5a66e7c20e62e2"
+    },
+    {
+      "path": "DATA/GO_TZY02.ECM",
+      "size": 480484,
+      "sha256": "ff663ffd64f98300ddf27638a943391fcf9dc696c8aeb553fec3318e7d7bbb0f"
+    },
+    {
+      "path": "DATA/GO_TZY03.ECM",
+      "size": 468744,
+      "sha256": "101894cba88b8523155cc8225b801f4f197f03947d6c1aadf90f31f2a2219d6c"
+    },
+    {
+      "path": "DATA/GO_TZY05.ECM",
+      "size": 365628,
+      "sha256": "40cb883a6c246e0a205a195c834e7d210a648d90e2740ea3544ce38afe69f329"
+    },
+    {
+      "path": "DATA/GO_TZY08.ECM",
+      "size": 550856,
+      "sha256": "665ef0dd5d69ad41cd7ac93f196e6a1626000adc306e930f8d8f663072f385f8"
+    },
+    {
+      "path": "DATA/STRANGER.ECM",
+      "size": 35251856,
+      "sha256": "d1302c2c6ee3afab4f0958a79d4142afeef44d3988b9ac33d3b46f00ff93022d"
+    },
+    {
+      "path": "Docs/Arte-HD.json",
+      "size": 586207,
+      "sha256": "c30ccdf1fc4d95882b0ead01ad3627064455838664bae33604a0de9baff905bf"
+    },
+    {
+      "path": "Docs/Arte-v1.0.76.json",
+      "size": 366223,
+      "sha256": "5fa2eb7e23dc58722ded5a03a08b8b0d77543a71eba389fac0c2eb83d75c2f4e"
+    },
+    {
+      "path": "Docs/Arte-v1.0.77.json",
+      "size": 388392,
+      "sha256": "39b22183e26910c607cc6d74c37433598e4c37429a6f3e65811d71f9986729a2"
+    },
+    {
+      "path": "Docs/Arte-v1.0.78.json",
+      "size": 432586,
+      "sha256": "f0201ca4eba4951c7b0d435f46f38ce4944337677825e9e8d4a4d06e6737b73a"
+    },
+    {
+      "path": "Docs/Arte-v1.0.79.json",
+      "size": 478205,
+      "sha256": "57d8faae32e58a59e97148b53824b0856597b88c4930dfb3bf17cfa8053feb59"
+    },
+    {
+      "path": "Docs/Arte-v1.0.80.json",
+      "size": 583807,
+      "sha256": "5eb65cf08b97ffc16a6d8c7348ee4ed0bc424b405023335ff7072b4ab8bd6fd6"
+    },
+    {
+      "path": "Docs/Arte-v1.0.81.json",
+      "size": 586207,
+      "sha256": "c30ccdf1fc4d95882b0ead01ad3627064455838664bae33604a0de9baff905bf"
+    },
+    {
+      "path": "Docs/Arte-v1.0.82.json",
+      "size": 571176,
+      "sha256": "6f1de823e96d005f6ea4f7b73257e81705d1cab69550184ed6fba87ef75f8b17"
+    },
+    {
+      "path": "Docs/Arte-v1.0.83.json",
+      "size": 686874,
+      "sha256": "0e0206a9cf638541fa35072a5b735caf98275b2cd4fdb0880a2accb98c519d1a"
+    },
+    {
+      "path": "Docs/Blocos-preservados.json",
+      "size": 3439,
+      "sha256": "62e77edce043286b1e8e3523050ce96e167b844a8ddd833a991b4045241a665a"
+    },
+    {
+      "path": "Docs/Correcao-Portatil-v1.2.0.txt",
+      "size": 1003,
+      "sha256": "741f3c37a334a5a8cf9bfc449c57f0e329e206f6fed5fe2fc2f142dadd2e3dde"
+    },
+    {
+      "path": "Docs/Correcao-v1.0.52.txt",
+      "size": 2828,
+      "sha256": "825779f7b88d4f0d36652c35d5e5853b3fcb753ea168ba803f08f4f67b556fcc"
+    },
+    {
+      "path": "Docs/Correcao-v1.0.56.txt",
+      "size": 3151,
+      "sha256": "b7e6ea51a0dba783741199d36fec82444aae3371666e82f3eb86a7d81b71aa0e"
+    },
+    {
+      "path": "Docs/Correcao-v1.0.75.txt",
+      "size": 3084,
+      "sha256": "bcbc83299402a292da59efa7f3b17998c840897c32149ae392ab8eea268af6bd"
+    },
+    {
+      "path": "Docs/DLLs-locais-v1.5.1.txt",
+      "size": 124,
+      "sha256": "4d10501f0b35c1d23c17433d8d5753db0c7f9641a8827d6da693d0ef5bb52efb"
+    },
+    {
+      "path": "Docs/EULA-original-PT.txt",
+      "size": 9585,
+      "sha256": "8f1ec4f928550d7dc9e330264658f21457ccbcd3d43b85d7a9e8cf43d5ecb8a2"
+    },
+    {
+      "path": "Docs/GUIA.html",
+      "size": 3347,
+      "sha256": "ce78922595bc2050d295580e0614b93e239ad26617748bd999d2736e4fe5b849"
+    },
+    {
+      "path": "Docs/Graficos-Modernos-v1.5.0.txt",
+      "size": 1202,
+      "sha256": "bd61dc2b1bcd19f724a23a58c8956eea13b8ea220a59f6a710aad42ba41d37d6"
+    },
+    {
+      "path": "Docs/HUD-Animais-Frutas.json",
+      "size": 25073,
+      "sha256": "27622f143182bef14d96146c88fb20396052af0be68fe701193f568fa58fc133"
+    },
+    {
+      "path": "Docs/Inventario-remaster-v1.0.76.json",
+      "size": 218929,
+      "sha256": "cee534d716257bb8686f9c100243b65dd688993829b962d4c1638d1416f06d51"
+    },
+    {
+      "path": "Docs/Inventario-remaster-v1.0.77.json",
+      "size": 214911,
+      "sha256": "fd33c2a77d6fab7e2b130a5a3d9d200d637aaf919b856bd4a7f8d171e19f254f"
+    },
+    {
+      "path": "Docs/Inventario-remaster-v1.0.78.json",
+      "size": 207571,
+      "sha256": "368d336444c2784b35a61a911b2f27047ef810bc8c1b3be491e7b0051d188579"
+    },
+    {
+      "path": "Docs/Inventario-remaster-v1.0.79.json",
+      "size": 198081,
+      "sha256": "33d4639115d86923696bf466b131ec47a0ce302ded8bc48983fcd7c053fef684"
+    },
+    {
+      "path": "Docs/Inventario-remaster-v1.0.80.json",
+      "size": 180548,
+      "sha256": "6384e74de68b3ac15b1545506dd003a209b6e47751f8772482172aa0d0d9b9be"
+    },
+    {
+      "path": "Docs/Inventario-remaster-v1.0.81.json",
+      "size": 171552,
+      "sha256": "8af183db2f49544ac4ff0cecf81ec1828490b2ae0c102b079031fe542893d4d6"
+    },
+    {
+      "path": "Docs/Inventario-remaster-v1.0.82.json",
+      "size": 168938,
+      "sha256": "05205e78e12bc23bacc00a6a66179b2b687039b0c362fcb6c661f63c1287c3bf"
+    },
+    {
+      "path": "Docs/Inventario-remaster-v1.0.83.json",
+      "size": 154745,
+      "sha256": "9cc45d2a79c103b81e615f2b7510597d9372ac2621f76b44b42c7601333e2a7c"
+    },
+    {
+      "path": "Docs/Inventario-remaster.json",
+      "size": 171552,
+      "sha256": "8af183db2f49544ac4ff0cecf81ec1828490b2ae0c102b079031fe542893d4d6"
+    },
+    {
+      "path": "Docs/Olhares-Porter.json",
+      "size": 2213,
+      "sha256": "492e96ecc14c68f615d810274da766ee0b2b3c0dd521a54792cbd8a53ad50b3f"
+    },
+    {
+      "path": "Docs/Progresso-restante.txt",
+      "size": 794,
+      "sha256": "1685a343d4854ce58f9565b39829588255901cf0858948b071214943b1b0f194"
+    },
+    {
+      "path": "Docs/Proximas-etapas.txt",
+      "size": 715,
+      "sha256": "b8bdbfb7d79449e6836a1350a949f7f76f7441618e61d3040107022ba1f815e6"
+    },
+    {
+      "path": "Docs/Telas-Auxiliares-v1.0.76.json",
+      "size": 549,
+      "sha256": "2eb9c2223669182201a09ad2a8b277ed0dbe56b5fa996088684a1efe47df5004"
+    },
+    {
+      "path": "Docs/Telas-Auxiliares-v1.0.77.json",
+      "size": 517,
+      "sha256": "f77bf68bf136b0f3b65a3cd1de3e2315c7616777cd4fbd43ed64d5c24c5009ef"
+    },
+    {
+      "path": "Docs/Telas-Auxiliares-v1.0.78.json",
+      "size": 558,
+      "sha256": "2b5aa0db8afa0b329553a793780e0c9d6adcc5785165a327dc065b9715f406d5"
+    },
+    {
+      "path": "Docs/Telas-Auxiliares-v1.0.79.json",
+      "size": 716,
+      "sha256": "26c019f49300c2501f8c1db97ab188daba1041c24f8578ed8f15b74e88ae0fdb"
+    },
+    {
+      "path": "Docs/Telas-Auxiliares-v1.0.80.json",
+      "size": 648,
+      "sha256": "33b29e8da460d00429b034305188e795a224accd993196a3efc9d071cdd4f9cd"
+    },
+    {
+      "path": "Docs/Telas-Auxiliares-v1.0.81.json",
+      "size": 647,
+      "sha256": "6f4e67c64408645d90d44dab5549c638c7220dd6ff8e3bcff3343f64dd1b9701"
+    },
+    {
+      "path": "Docs/Telas-Auxiliares-v1.0.82.json",
+      "size": 596,
+      "sha256": "01644c6b8302691213fcac0e5950bfecf669ced70547355594d30e6221b34ab6"
+    },
+    {
+      "path": "Docs/Telas-Auxiliares-v1.0.83.json",
+      "size": 701,
+      "sha256": "8af68a751a132ea01386f303171813536c329662617563dcc35d345d0ba37953"
+    },
+    {
+      "path": "Docs/Testes-Portatil-v1.1.0.txt",
+      "size": 1348,
+      "sha256": "336c65af7ead5c47ac4ac2325a860550b8386edfeb28f5951edc6e429af2fba4"
+    },
+    {
+      "path": "Docs/Testes-Portatil-v1.1.1.txt",
+      "size": 1105,
+      "sha256": "f615450a0c8d171152450a7cf922f021f59489fff093dc19d5f5ba909c9963b6"
+    },
+    {
+      "path": "Docs/Testes-Portatil-v1.2.0.txt",
+      "size": 542,
+      "sha256": "e7dfcb6ba7e0a72c97df4857a3685148ff64d802da57907a91efd803f5b0dddd"
+    },
+    {
+      "path": "Docs/Testes-Portatil-v1.2.1.txt",
+      "size": 565,
+      "sha256": "59fe3366d69bf0281a698f2e2e4f60431aaa7f66cb8dc2b33aa547f47ec5fa15"
+    },
+    {
+      "path": "Docs/Testes-Portatil-v1.2.2.txt",
+      "size": 641,
+      "sha256": "66653eb3c0b9ee2f9acfcd19d807c5674ae7a9b380eae622d0c2448ddee9d201"
+    },
+    {
+      "path": "Docs/Testes-Portatil-v1.2.3.txt",
+      "size": 676,
+      "sha256": "3e77a9235906e2ebb942ca90933aecfc16def899cdf9d1876ab292d61e47c0f6"
+    },
+    {
+      "path": "Docs/Testes-Portatil-v1.2.4.txt",
+      "size": 712,
+      "sha256": "dc8a1dcdc0e333a38820a9a790ff7bf8a93a501bd91fa7742937d35d7ccdea79"
+    },
+    {
+      "path": "Docs/Testes-Portatil-v1.2.5.txt",
+      "size": 705,
+      "sha256": "5f61ce7d6a88b0a84e4a104f7fed203d95ca1aad72d0fb353504a4dc0ad7053a"
+    },
+    {
+      "path": "Docs/Testes-Portatil-v1.2.8.txt",
+      "size": 689,
+      "sha256": "771ab6e49660200d5b04e9d453a1742307bdae2c72833256762e4674c722ba8f"
+    },
+    {
+      "path": "Docs/Testes-v1.0.52.txt",
+      "size": 40129,
+      "sha256": "7f22ccb3ae0db1823c054363798479b217d1dfba880e1c0da3eae48825af9478"
+    },
+    {
+      "path": "Docs/Testes-v1.0.56.txt",
+      "size": 40000,
+      "sha256": "56af4e8d73bff417d06192336e25a21acb21d3cdcdff23f3e391d2a526f5a22a"
+    },
+    {
+      "path": "Docs/Testes-v1.0.75.txt",
+      "size": 54008,
+      "sha256": "a9c166c0948eeb8c42058ae4bc59a3e04e1b317d49abdad86ee1df5f728ba2ca"
+    },
+    {
+      "path": "Docs/Texturas-restantes.json",
+      "size": 1674,
+      "sha256": "6e5289343c94f929d0dfbd5597e0d6c5696510c4bee11e12c6eee04272771bcd"
+    },
+    {
+      "path": "Docs/assets-translation.json",
+      "size": 10360,
+      "sha256": "a30f4cc72576270260d0ba6285101931060caad68d8e587ef8f34cb740590ee2"
+    },
+    {
+      "path": "Docs/exe-translation.json",
+      "size": 14231,
+      "sha256": "d1eacb89f3f8cc225277cf3c5d621c8a9adc2ac4c09e858e51617c3f7074b240"
+    },
+    {
+      "path": "Docs/fsd-patches.json",
+      "size": 2163,
+      "sha256": "47239f1de983859e0bc98d5e0515cd9972a5edc57480643705765322bdaeacc7"
+    },
+    {
+      "path": "Game/D3DImm.dll",
+      "size": 208384,
+      "sha256": "93c534f2d17419ea78f15551f7e0aac78b3c503733a840914fa063708a5afe8e"
+    },
+    {
+      "path": "Game/DDraw.dll",
+      "size": 255488,
+      "sha256": "612a24408a090a3c6f3886557fa18034ee742e94ad0a40ebdf854d2816176c2e"
+    },
+    {
+      "path": "Game/Glide.dll",
+      "size": 211968,
+      "sha256": "028dcaef62ccb9a051df986096031c4d63bdd4c19d997b14ed3389b1b09a368e"
+    },
+    {
+      "path": "Game/Glide2x.dll",
+      "size": 211456,
+      "sha256": "dd61cf60e2cab0ed0d5dd4e26b88a3008592adc9ebe072d90dc086d67f7dfad2"
+    },
+    {
+      "path": "Game/Glide3x.dll",
+      "size": 217088,
+      "sha256": "d704f1885f17d015750d9f8b125df83fef0d14bae0d18d0ba0209c904ac9cde2"
+    },
+    {
+      "path": "Game/Imagem.ini",
+      "size": 123,
+      "sha256": "5364efb631769c2ecca527496d29695337d3ec0e2aaad67d038199f0a53503e0"
+    },
+    {
+      "path": "Game/TarzanImagem.dll",
+      "size": 253278,
+      "sha256": "dc751b2a6fac9ade3b03dca77b568868329d7440f67da6a90faafe2604e067e7"
+    },
+    {
+      "path": "Game/dgVoodoo.conf",
+      "size": 2443,
+      "sha256": "16aadd81fb846df83355e0b04ae85651b53d84915518d7c9002033951b8bb646"
+    },
+    {
+      "path": "Game/dgVoodooCpl.exe",
+      "size": 451072,
+      "sha256": "87fb878166dcaef3e75ff170de030527c73f5c9b164c5943da13f8a97b0b75c6"
+    },
+    {
+      "path": "Game/tarzan.cfg",
+      "size": 2080,
+      "sha256": "04d23b1f331474db5da1a78e63f21060ca911a93e94b4622ae30bfb3ddd57185"
+    },
+    {
+      "path": "Game/tarzan.exe",
+      "size": 1105920,
+      "sha256": "fb32f4de541668bc3b43195a75d32e5f560aa6ff513bbd494bb439ea8ff11fe8"
+    },
+    {
+      "path": "Game/tarzan.fsd",
+      "size": 52933078,
+      "sha256": "223564dc9d7a3b8b673a2ca94246933622aa41c75e222935fcefe2346d918510"
+    },
+    {
+      "path": "Game/winmm.dll",
+      "size": 770616,
+      "sha256": "c3721f7a5fff22c0da0961517c7c3c6e20327d071f73f179a004cf8f1ab6b304"
+    },
+    {
+      "path": "Gamepad.ini",
+      "size": 370,
+      "sha256": "88ae43614339d95fad7d5eef6fb2f3fcdca14f0fe762a8eba28ef433372fa275"
+    },
+    {
+      "path": "GraphicsProfiles/tarzan-direct3d.cfg",
+      "size": 2080,
+      "sha256": "49dc4fc14494915ee8262be19d46d1895e82852fbb23379bd7bf9871a71ddeef"
+    },
+    {
+      "path": "GraphicsProfiles/tarzan-glide.cfg",
+      "size": 2080,
+      "sha256": "417d13aeeb36bb906db3836faa6846a385b8fc707bd12b4597e3038a90bf1915"
+    },
+    {
+      "path": "LEIA-ME-v1.5.1.txt",
+      "size": 1075,
+      "sha256": "9d26188c0d25dcce089c38f8a6a438c37bc40aa3e6b928102219eed52f3c3108"
+    },
+    {
+      "path": "LEIA-ME.txt",
+      "size": 1571,
+      "sha256": "9f8bcdb5730ede59f05de408c23bc091c2dc9413e670a14757fe05975f151447"
+    },
+    {
+      "path": "Music/LEIA-ME.txt",
+      "size": 726,
+      "sha256": "d30893716647a9dabb5c6248307fb12ff20e91793b45222e3d7b844a74af4643"
+    },
+    {
+      "path": "Tarzan-Diagnostico.exe",
+      "size": 2366074,
+      "sha256": "0216b5a5b075a7c2ffab2f6edcd4463e070f35de6df80627d54d0cc39b98b6a0"
+    },
+    {
+      "path": "Tarzan-Graficos-Moderno.cmd",
+      "size": 151,
+      "sha256": "9b61f135a0f435735f1cd860d64df2c9898d4399bbb75349b5b053931356c5a4"
+    },
+    {
+      "path": "Tarzan-Graficos-Moderno.ps1",
+      "size": 10082,
+      "sha256": "bde0f85ad031d3bcadf31bca9533f70a8ef0bdf1c72c01d9395bd14c3ebd1935"
+    },
+    {
+      "path": "Tarzan-Moderno.exe",
+      "size": 2961240,
+      "sha256": "33caebdab37a6cf7db670fc12eb91ecb4400e9ab74790aed2c92618beea6d45b"
+    },
+    {
+      "path": "VERIFICAR-DLLS.cmd",
+      "size": 121,
+      "sha256": "b2059e131a024586c98be27db892cf552d036d4df67c3b59c86728eaa35227de"
+    },
+    {
+      "path": "VERIFICAR-DLLS.ps1",
+      "size": 1066,
+      "sha256": "029fdf6adade844e11a9bd96a5ff921cb47843a857f2b513f1f7c3d21dcc4b31"
+    }
+  ],
+  "package_type": "full-portable",
+  "graphics_configurator": "v1.5.1",
+  "stable_fsd_source": "v1.3.9-full-rollback-last-working"
+}
