@@ -1,0 +1,32 @@
+TARZAN PC MODERNIZADO PT-BR — PORTÁTIL v1.2.8 TELAS HD 08
+
+COMO JOGAR
+1. Extraia o ZIP inteiro para uma pasta curta, por exemplo C:\Jogos\Tarzan.
+2. Mantenha Game, DATA e Music ao lado de Tarzan-Moderno.exe.
+3. Abra Tarzan-Moderno.exe e clique em JOGAR.
+4. Não é necessário montar ISO nem inserir CD.
+
+NESTA VERSÃO
+- Os 36 vídeos ECM, efeitos e falas funcionam localmente sem CD.
+- Game\winmm.dll x86 usa faixas WAV/MP3 locais; sem faixas o jogo não trava.
+- Preserva PT-BR, controles modernos, widescreen Hor+, fullscreen, resoluções
+  modernas, antisserrilhamento e filtros de textura.
+- 2.199 blocos de textura remasterizados e auditados.
+- Dez recursos de interface HD concluídos: TIT_BACK, OPT_BACK, LOADBACK,
+  TITLE, PCTITLE, DIFF, OPTIONS, MUSIC, SFX e CONTROL.
+- CONTROL recebeu 251 blocos HD em 12 grupos, preservando os comandos PT-BR,
+  vibração, ligado/desligado, transparência e destaques de seleção.
+- O nome interno inglês CONTROL.TEX foi mantido e o payload antigo não foi duplicado.
+- Saves e preferências ficam na própria pasta portátil.
+
+SOBRE AS MÚSICAS
+A ISO possui somente a faixa de dados; as músicas precisam vir do CD/BIN+CUE.
+Consulte Music\LEIA-ME.txt.
+
+VALIDAÇÃO
+Os testes automáticos conferem mídia local, inicialização x86, menus, controles,
+integridade da arte e WINMM. A aparência final e a música real ainda precisam de
+validação em Windows 10/11 com GPU e faixas locais.
+
+Próximo trabalho: continuar telas auxiliares, depois backgrounds e cenários;
+personagens restantes serão retomados em seguida.

@@ -1,0 +1,29 @@
+TARZAN PC PORTATIL PT-BR v1.5.1 - PACOTE COMPLETO
+
+Esta versao e um pacote completo, nao um patch.
+Ela inclui Tarzan.exe, assets, videos, audio e todas as DLLs locais presentes na base portatil funcional.
+
+Base:
+- arquivos completos: v1.2.8
+- tarzan.fsd: rollback da ultima base funcional v1.3.9
+- configurador grafico moderno: v1.5.0
+
+DLLs locais incluidas em Game:
+- D3DImm.dll
+- DDraw.dll
+- Glide.dll
+- Glide2x.dll
+- Glide3x.dll
+- TarzanImagem.dll
+- winmm.dll
+
+IMPORTANTE SOBRE DINPUT:
+DirectInput (dinput.dll/dinput8.dll) e componente do Windows/DirectX e nao fazia parte das versoes portateis v1.1.0 ou v1.2.8. O jogo deve usar a copia do sistema.
+Se o Windows informar especificamente que dinput.dll ou dinput8.dll esta ausente, nao baixe DLL avulsa de sites. Repare/instale o runtime oficial do DirectX no Windows.
+
+Para jogar:
+1. Extraia a pasta inteira.
+2. Execute Tarzan-Moderno.exe.
+3. Para opcoes graficas adicionais, execute Tarzan-Graficos-Moderno.cmd.
+
+O botao "Salvar e iniciar Tarzan" do configurador abre Tarzan-Moderno.exe, preservando o launcher do port.

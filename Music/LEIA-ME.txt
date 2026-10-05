@@ -1,0 +1,16 @@
+MÚSICA LOCAL — TARZAN PORTÁTIL
+
+A ISO fornecida contém somente a faixa de dados e não contém as faixas musicais
+do CD original. O jogo funciona sem elas: efeitos, falas e vídeos continuam locais.
+
+Para recuperar a música sem manter o CD montado, extraia as faixas de áudio do seu
+próprio CD em WAV ou MP3 e coloque-as nesta pasta com a numeração original:
+
+track01.wav, track02.wav, track03.wav ...
+ou
+track01.mp3, track02.mp3, track03.mp3 ...
+
+Não misture WAV e MP3 com o mesmo número. WAV é o formato recomendado.
+O arquivo Game\winmm.dll transforma essas faixas locais no antigo dispositivo de
+áudio de CD esperado pelo jogo. O controle “Volume música” do jogo é encaminhado
+para o reprodutor local.
