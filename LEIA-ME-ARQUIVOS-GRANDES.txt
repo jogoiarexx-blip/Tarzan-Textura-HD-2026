@@ -1,0 +1,61 @@
+TARZAN PC PORTÁTIL — ARQUIVOS GRANDES NECESSÁRIOS
+================================================
+
+Alguns arquivos do jogo não estão incluídos diretamente no repositório do GitHub porque ultrapassam o limite de tamanho permitido.
+
+Antes de iniciar o jogo, baixe e descompacte os arquivos grandes nas pastas corretas:
+
+1) STRANGER.ECM
+---------------
+Coloque o arquivo:
+
+STRANGER.ECM
+
+dentro da pasta:
+
+Data\
+
+O caminho final deve ficar assim:
+
+Data\STRANGER.ECM
+
+
+2) tarzan.fsd
+-------------
+Coloque o arquivo:
+
+tarzan.fsd
+
+dentro da pasta:
+
+Game\
+
+O caminho final deve ficar assim:
+
+Game\tarzan.fsd
+
+
+ESTRUTURA ESPERADA
+==================
+
+Tarzan-PC-Portatil\
+│
+├── Data\
+│   └── STRANGER.ECM
+│
+├── Game\
+│   └── tarzan.fsd
+│
+└── demais arquivos do projeto...
+
+
+IMPORTANTE
+==========
+
+- Não renomeie os arquivos.
+- Não deixe os arquivos dentro de outra subpasta após descompactar.
+- Confirme que os caminhos finais são exatamente:
+  Data\STRANGER.ECM
+  Game\tarzan.fsd
+
+Se esses arquivos não estiverem nas pastas corretas, o jogo poderá não iniciar ou apresentar erros durante o carregamento.
