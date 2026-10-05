@@ -1,0 +1,3 @@
+descompactar  um zip dentro da pasta game pro jogo funcionar
+
+
